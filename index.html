@@ -11,10 +11,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-
-  <!-- body section -->
-
-  <body class="dark:bg-gray-900 bg-slate-50 overflow-x-hidden">
+  <body class="dark:bg-gray-900 bg-slate-50 sm:scroll">
     <!-- navbar -->
 
     <nav
@@ -25,312 +22,842 @@
       <button
         id="theme-toggle"
         type="button"
-        class=" text-blue-700 hover:scale-110 duration-100 hover:duration-100 rounded-lg text-sm p-2 mb-4 flex"
+        class="text-blue-700 hover:scale-110 duration-100 hover:duration-100 rounded-lg text-sm p-2 mb-4 flex"
       >
         <span class="p-1 font-bold">Dark</span>
         <i class="h-8 w-8 fa-regular fa-moon fa-2xs" style="color: #1a56db"></i>
       </button>
     </nav>
 
-    <!-- intruduction area -->
+    <!-- Main intruduction area -->
 
-    <section class="w-screen flex justify-center">
-      <div class="flex-col max-w-6xl text-center pb-5">
-        <div class="flex justify-center"></div>
-        <h5
-          class="text-center mb-12 text-6xl sm:text-8xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+    <section class="mx-auto flex justify-center">
+      <div class="flex-col max-w-6xl sm:text-center pb-5 mx-3">
+        <h1
+          class="text-center mb-4 sm:mb-12 text-8xl sm:text-9xl font-extrabold tracking-tight text-gray-900 dark:text-white"
         >
           LANE SMITH
-        </h5>
-        <h5
-          class="text-center mb-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+        </h1>
+        <ul
+          class="flex flex-col sm:flex-row items-center flex-wrap justify-center sm:justify-around sm:mb-8 mb-4 text-xl md:text-xl lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
-          Junior Full Stack Developer
-        </h5>
-        <p
-          class="mb-3 mx-2 font-normal text-gray-700 dark:text-gray-400 text-xl"
-        >
-          Hello, I'm Lane Smith. Welcome to my page! This site is a work in progress, and as such it
-          will be under constant revision and improvement. As I learn new
-          frameworks, languages, tools and technologies I will build additional
-          projects and incorporate them into this site. If you have any
-          questions I can be reached through any of the social channels listed at the bottom of this page.
+          <li class="my-1">Project Manager</li>
+          <li class="my-1">Web Developer</li>
+          <li class="my-1">Entrepreneur</li>
+          <li class="my-1">Lifelong Learner</li>
+        </ul>
+
+        <!-- sicial media links -->
+
+        <div class="py-4 sm:py-8 flex justify-center">
+          <button
+            class="hover:scale-110 duration-100 hover:duration-100 h-6 w-6 sm:h-10 sm:w-10 align-bottom mx-2 sm:mx-6"
+          >
+            <a href="https://www.linkedin.com/in/lane-g-smith"
+              ><img
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+            /></a>
+          </button>
+          <button
+            class="hover:scale-110 duration-100 hover:duration-100 h-6 w-6 sm:h-10 sm:w-10 mx-2 sm:mx-6 align-bottom"
+          >
+            <a href="https://github.com/Lane-G-Smith">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLHv_jIswdZGXPRC_L76ITDc4nxvOO8tF22AYPXvpnO50JSvbKcPf59QRmP6GxNglhGyI&usqp=CAU"
+            /></a>
+          </button>
+          <button
+            class="hover:scale-110 duration-100 hover:duration-100 h-6 w-6 sm:h-10 sm:w-10 mx-2 sm:mx-6 align-bottom"
+          >
+            <a href="https://www.instagram.com/lanegpersonal/">
+              <img
+                src="https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/tBxa1IFcTQH.png"
+            /></a>
+          </button>
+          <button
+            class="h-6 sm:h-10 sm:mr-5 hover:scale-110 duration-100 hover:duration-100 px-2 mx-2 sm:mx-6 font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus mx-2"
+          >
+            <h2 class="font-bold text-sm text-white">
+              <a
+                class="cursor-pointer"
+                href="https://github.com/Lane-G-Smith/lanesmith.info"
+                >Website-Code</a
+              >
+            </h2>
+          </button>
+        </div>
+        <p class="mb-3 mx-2 text-s text-blue-600">
+          This site is a work in progress and will be under constant revision
+          and improvement. As I learn new frameworks, languages, tools and
+          technologies they will be incorporated into this site and the projects
+          contained within it. If you have any questions I can be reached
+          through any of the social channels listed above.
         </p>
       </div>
     </section>
 
-    <!-- social media links -->
+    <!-- About me area -->
 
-    <section>
-
-    </section>
-
-    <!-- skill cards -->
-
-    <div class="flex w-full self-center justify-center flex-wrap">
-
-    <!-- outdoorsman -->
-
-      <div
-      class="flex flex-col items-center border border-gray-200 rounded-lg shadow-md sm:flex-row bg-white dark:border-gray-700 dark:bg-gray-800 mx-2 my-5 max-w-7xl"
+    <div
+      class="flex flex-col items-center sm:flex-row dark:border-gray-700 sm:my-5 h-auto"
     >
-      <img
-        class=" w-full object-cover rounded-t-lg h-72 sm:m-5 sm:h-96 sm:w-96 sm:rounded-full"
-        src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-mMNXwNn/3/758f6e1c/L/2012-07-17%2017.32.35-Website-2-L.jpg"
-        alt="A humanoid robot picture"
-      />
-      <div class="flex flex-col justify-between p-4 mx-28 leading-normal items-start">
-        <h5
-          class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-        >
-          Outdoorsman
-        </h5>
-        <p class="text-lg mb-3 font-normal text-gray-700 dark:text-gray-400">
-          I have spent most of my adult life working in outdoor recreation. I have spent years as a whitewater, snowmobile, and fishing guide. Over the years I have developed a keen and well rounded skill set that includes customer service, risk management, and leadership.
+      <div
+        class="flex flex-col justify-between p-4 lg:mx-28 leading-normal items-start"
+      >
+        <p class="text-xl mb-3 text-gray-700 dark:text-gray-400">
+          Hello, I'm Lane Smith. I built this website to showcase my skills as a
+          web developer and to serve as my online resume. I am originally from
+          California but for the last 8 years have lived in Arizona. Why you
+          should read more. Why I may be able to help you. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Nihil ullam inventore nam numquam
+          qui explicabo dolores architecto quos accusantium nesciunt nobis fugit
+          hic veritatis placeat enim dolor sit obcaecati quas labore alias, quod
+          voluptatibus maxime! Voluptatum consequuntur assumenda natus harum?
+          Sequi exercitationem asperiores accusantium quos consequatur id nihil
+          commodi non! Ut reprehenderit pariatur veniam, velit autem obcaecati
+          sed fugiat eos, quam possimus aut error vitae porro facere minima quas
+          aliquam, rerum sapiente vel vero? Voluptatem ipsum nisi repellat sunt
+          ullam reiciendis dolorem animi, rerum voluptatibus accusamus mollitia
+          iste molestias nobis dicta nesciunt quo cupiditate dolor, quod libero
+          ducimus? Minima, impedit.
         </p>
       </div>
     </div>
 
-    <!-- photographer -->
+    <!-- Project Management skill card-->
 
-    <div
-    class="flex flex-col items-center border border-gray-200 rounded-lg shadow-md sm:flex-row bg-white dark:border-gray-700 dark:bg-gray-800 mx-2 my-3 max-w-7xl"
-  >
-    <div class="flex flex-col justify-between p-4 leading-normal mx-28 items-start">
-      <h5
-        class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-      >
-        Photographer & Entrepreneur
-      </h5>
-      <p class="text-lg mb-3 font-normal text-gray-700 dark:text-gray-400">
-        For the last three years I have been a professional photographer, with the last two years being bull time. I have worked in a variety of genres including weddings, portraits, and real estate. I have also worked as a photo editor and retoucher. I have a strong understanding of the Adobe Creative Suite, and I am proficient in Lightroom, Photoshop, and Illustrator. 
-      </p>
-    </div>
-    <img
-    class="w-full object-cover rounded-t-lg h-72 sm:m-5 sm:h-96 sm:w-96 sm:rounded-full"
-    src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-thvC5fw/0/2534a833/X3/Carousel_Portfolio_Wedding_Portrait_Elopement_Family_Maternity_Photography_CactusMountainStudio%20%2858%29-X3.jpg"
-    alt="A humanoid robot picture"
-  />
-  </div>
-
-  <!-- Team Oriented -->
-
-    <div
-    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-md sm:flex-row dark:border-gray-700 dark:bg-gray-800 mx-2 my-3 max-w-7xl"
-  >
-    <img
-      class="object-right w-full object-cover rounded-t-lg h-72 sm:p-5 sm:h-96 sm:w-96 sm:rounded-full"
-      src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-DGpsNvW/0/2a66be44/X2/PC250006-X2.jpg"
-      alt="A humanoid robot picture"
-    />
-    <div class="flex flex-col justify-between p-4 leading-normal mx-28 items-start">
-      <h5
-        class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-      >
-        Team Oriented
-      </h5>
-      <p class="text-lg mb-3 font-normal text-gray-700 dark:text-gray-400">
-        Weather it's running a class 5 rapid, or running a business, I know that the best way to ensure success is to work together. I am a firm believer in the idea that a team is only as strong as its weakest link, and I strive to ensure that everyone on my team is set up for success. I have managed teams of up to 20 people in various employment roles, and I have a strong understanding of the importance of communication, and the ability to delegate tasks effectively.
-      </p>
-    </div>
-  </div>
-
-   <!-- Developer -->
-
-   <div
-   class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-md sm:flex-row dark:border-gray-700 dark:bg-gray-800 mx-2 my-3 max-w-7xl"
- >
-   <div class="flex flex-col justify-between p-4 leading-normal mx-28 items-start">
-     <h5
-       class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-     >
-       Self-Taught Developer
-     </h5>
-     <p class="text-lg mb-3 font-normal text-gray-700 dark:text-gray-400">
-       It all started when I wanted to make a few changes to my photography business website. I realized that I could either pay someone to make the changes for me, or I could learn to do it myself. I decided to learn, and I have been hooked ever since. I have spent the last year learning to code, and I have developed a strong understanding of HTML, CSS, and JavaScript.
-     </p>
-   </div>
-   <img
-   class="object-left-top w-full object-cover rounded-t-lg h-72 sm:p-5 sm:h-96 sm:w-96 sm:rounded-full"
-   src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-NNN4sN7/0/baa88a46/X3/Capture-X3.png"
-   alt="A humanoid robot picture"
- />
- </div>
-</div>
-
-    <!-- projects area -->
-
-    <div class="flex flex-col justify-center items-center">
-      <div class="flex flex-col justify-center items-center">
-        <h5
-          class="text-center my-12 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white"
-        >
-          Project Showcase
-        </h5>
-      </div>
-    </div>
-
-    <!-- project cards -->
-
-    <!-- LOTS OF BOTS -->
-
-    <section class="md:flex mx-1 sm:justify-around flex-wrap">
+    <div class="flex justify-center lg:mt-24">
       <div
-        class="bg-white flex flex-col md:max-w-xl lg:max-w-lg rounded overflow-hidden shadow-lg lg:mx-3 my-2 dark:bg-slate-700 border border-black"
+        class="flex flex-col items-center lg:flex-row bg-gray-800 dark:border-gray-700 mt-5 min-w-full"
       >
         <img
-          class="w-full h-2/5 object-cover"
-          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4KptwHT/1/76aa9b61/X4/20230811_075823-X4.jpg"
-          alt="Sunset in the mountains"
+          class="w-full object-cover h-25 sm:m-5 sm:h-72 sm:w-72 sm:rounded-full"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-mMNXwNn/3/758f6e1c/L/2012-07-17%2017.32.35-Website-2-L.jpg"
+          alt="A humanoid robot picture"
         />
-        <div class="sm:px-6 sm:py-4 p-1">
-          <div class="font-bold text-2xl mb-2 dark:text-white">
-            Lots Of Bots
-          </div>
-
-          <p class="text-gray-700 text-base dark:text-white">
-            A website to showcase and share my Discord bots. The Discord bots
-            were written using javascript, call on various REST APIs, and are
-            hosted on my raspberry pi running Linux, pictured above.
+        <div
+          class="flex flex-col justify-between p-4 lg:mx-28 leading-normal items-start"
+        >
+          <h5
+            class="text-center mb-2 text-2xl font-bold tracking-tight text-blue-700"
+          >
+            Project Manager
+          </h5>
+          <p class="text-lg mb-3 font-normal text-gray-300">
+            A brief description of my history in management, different roles I
+            have filled, and what my strengths are. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Odit, id officia. Animi facere
+            accusamus recusandae. Labore totam nobis harum architecto molestias
+            maxime eligendi ducimus, quaerat omnis! Quod dolorum, alias
+            reiciendis ea corporis debitis veritatis dignissimos laudantium
+            explicabo fugit, sint quam, necessitatibus nulla neque totam
+            obcaecati architecto! Corrupti ducimus, animi aspernatur voluptate
+            quaerat dicta nam molestias nisi doloribus, laboriosam incidunt
+            ipsam inventore quis tenetur ratione similique suscipit nihil ut.
+            Inventore numquam suscipit alias id ad aspernatur vitae
+            perspiciatis, commodi praesentium esse impedit rerum sit molestiae
+            adipisci. Repellendus asperiores ipsa assumenda nisi, saepe est
+            voluptates, fugit, reiciendis iure beatae soluta itaque eaque.
           </p>
         </div>
-        <div class="mt-auto">
-        <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >HTML</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >CSS</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >JavaScript</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >Tailwind</span
-          >
-          <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-          >Discord.js</span
-        >
-        <span
-        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-        >OpenAI</span
-      >
-      <span
-      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-      >REST API</span
+      </div>
+    </div>
+
+    <h3
+      class="text-center my-4 sm:my-12 text-5xl sm:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white"
     >
+      EXPERIENCE
+    </h3>
+
+    <!-- Project management experience cards -->
+
+    <section class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-2">
+      <!-- south lake boat landing -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="aspect-square w-full h-80 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-PDFdpv5/0/882a1755/X3/2008-10-28%2010.09.09-X3.jpg"
+          alt="Lane in a wetsuit retreiving a boat motor that sank"
+        />
+        <div class="sm:px-6 sm:py-4 p-1 dark:text-white">
+          <div class="font-bold text-xl sm:text-2xl mb-2">
+            South Lake Boat Landing
+          </div>
+          <div class="font-bold text-lg sm:text-xl mb-2">
+            Opperations Supervisor
+          </div>
+          <div class="font-bold sm:text-lg mb-2">2006 - 2010</div>
+
+          <ul class="pl-5 list-disc text-sm sm:text-base">
+            <li>
+              Oversee and manage staff, including scheduling and conducting
+              performance reviews<br />
+            </li>
+            <li>
+              write and implement safety protocols, work lists, and workflow
+              systems<br />
+            </li>
+            <li>
+              establish goals and delegate tasks to appropriate team members<br />
+            </li>
+            <li>
+              manage cash flow and ensure that all transactions are completed
+              accurately<br />
+            </li>
+            <li>ensure that all customers have a positive experience<br /></li>
+            <li>
+              schedule and perform routine maintinence on fleet, dock, buildings
+              and opperational areas<br />
+            </li>
+            <li>
+              Promote the business through outdoor shows, fishing expos, and
+              local partnerships
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Zephyr Whitewater Expeditions -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="w-full h-80 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-S8pxfTN/0/76c57222/X3/2012-07-02%2009.07.28-X3.jpg"
+          alt="Lane in a wetsuit retreiving a boat motor that sank"
+        />
+        <div class="sm:px-6 sm:py-4 p-1 dark:text-white">
+          <div class="font-bold text-2xl mb-2 dark:text-white">
+            Zephyr Whitewater Expeditions
+          </div>
+          <div class="font-bold text-xl mb-2 dark:text-white">
+            Overnight Trip Leader
+          </div>
+          <div class="font-bold text-lg mb-2 dark:text-white">2011 - 2013</div>
+
+          <ul class="pl-5 list-disc">
+            <li>
+              Oversee and manage staff, including scheduling and conducting
+              performance reviews<br />
+            </li>
+            <li>
+              write and implement safety protocols, work lists, and workflow
+              systems<br />
+            </li>
+            <li>
+              establish goals and delegate tasks to appropriate team members<br />
+            </li>
+            <li>
+              manage cash flow and ensure that all transactions are completed
+              accurately<br />
+            </li>
+            <li>ensure that all customers have a positive experience<br /></li>
+            <li>
+              schedule and perform routine maintinence on fleet, dock, buildings
+              and opperational areas<br />
+            </li>
+            <li>
+              Promote the business through outdoor shows, fishing expos, and
+              local partnerships
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DJs snowmobile adventures -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="w-full h-80 object-cover object-bottom"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-VgzLdCj/0/3febdfaf/X2/2007-12-28%2006.33.26-X2.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="sm:px-6 sm:py-4 p-1 dark:text-white">
+          <div class="font-bold text-2xl mb-2 dark:text-white">
+            DJ's Snowmobile Adventures
+          </div>
+          <div class="font-bold text-xl mb-2 dark:text-white">
+            Field Manager
+          </div>
+          <div class="font-bold text-lg mb-2 dark:text-white">2008-2013</div>
+          <ul class="pl-5 list-disc">
+            <li>
+              Train employees on snowmobile operations, trail maintinence,
+              company policies, and safety protocols<br />
+            </li>
+            <li>
+              Make critical decisions and coordinate with field staff regarding
+              severe weather or emergency evacuations<br />
+            </li>
+            <li>
+              Coordinate with EMS or search and rescue in emergency
+              situations<br />
+            </li>
+            <li>
+              manage cash flow and ensure that all transactions are completed
+              accurately<br />
+            </li>
+            <li>ensure that all customers have a positive experience<br /></li>
+            <li>
+              schedule and perform routine maintinence on fleet, dock, buildings
+              and opperational areas<br />
+            </li>
+            <li>
+              Promote the business through outdoor shows, fishing expos, and
+              local partnerships
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Canyon River Equipment Outfitters -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full h-80 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="sm:px-6 sm:py-4 p-1 dark:text-white">
+          <div class="font-bold text-2xl mb-2 dark:text-white">
+            Canyon River Equipment Outfitters
+          </div>
+          <div class="font-bold text-xl mb-2 dark:text-white">
+            Lead Overnight Rigger
+          </div>
+          <div class="font-bold text-lg mb-2 dark:text-white">2014-2020</div>
+          <ul class="pl-5 list-disc">
+            <li>
+              Train employees on snowmobile operations, trail maintinence,
+              company policies, and safety protocols<br />
+            </li>
+            <li>
+              Make critical decisions and coordinate with field staff regarding
+              severe weather or emergency evacuations<br />
+            </li>
+            <li>
+              Coordinate with EMS or search and rescue in emergency
+              situations<br />
+            </li>
+            <li>
+              manage cash flow and ensure that all transactions are completed
+              accurately<br />
+            </li>
+            <li>ensure that all customers have a positive experience<br /></li>
+            <li>
+              schedule and perform routine maintinence on fleet, dock, buildings
+              and opperational areas<br />
+            </li>
+            <li>
+              Promote the business through outdoor shows, fishing expos, and
+              local partnerships
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Drive manager Professional River Outfitters -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="aspect-square w-full h-80 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-DGpsNvW/0/2a66be44/X2/PC250006-X2.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="sm:px-6 sm:py-4 p-1 dark:text-white">
+          <div class="font-bold text-2xl mb-2 dark:text-white">
+            Professional River Outfitters
+          </div>
+          <div class="font-bold text-xl mb-2 dark:text-white">
+            Drive Manager & Field Supervisor
+          </div>
+          <div class="font-bold text-lg mb-2 dark:text-white">2014-2020</div>
+          <ul class="pl-5 list-disc">
+            <li>
+              Train employees on snowmobile operations, trail maintinence,
+              company policies, and safety protocols<br />
+            </li>
+            <li>
+              Make critical decisions and coordinate with field staff regarding
+              severe weather or emergency evacuations<br />
+            </li>
+            <li>
+              Coordinate with EMS or search and rescue in emergency
+              situations<br />
+            </li>
+            <li>
+              manage cash flow and ensure that all transactions are completed
+              accurately<br />
+            </li>
+            <li>ensure that all customers have a positive experience<br /></li>
+            <li>
+              schedule and perform routine maintinence on fleet, dock, buildings
+              and opperational areas<br />
+            </li>
+            <li>
+              Promote the business through outdoor shows, fishing expos, and
+              local partnerships
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Lane G Photography -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="aspect-square w-full h-80 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-fjgxNqd/3/ca8c39a0/XL/LGP07683-3-XL.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="sm:px-6 sm:py-4 p-1 dark:text-white">
+          <div class="font-bold text-2xl mb-2 dark:text-white">
+            Lane G Photography
+          </div>
+          <div class="font-bold text-xl mb-2 dark:text-white">Owner</div>
+          <div class="font-bold text-lg mb-2 dark:text-white">2020 - 2023</div>
+          <ul class="pl-5 list-disc">
+            <li>
+              Train employees on snowmobile operations, trail maintinence,
+              company policies, and safety protocols<br />
+            </li>
+            <li>
+              Make critical decisions and coordinate with field staff regarding
+              severe weather or emergency evacuations<br />
+            </li>
+            <li>
+              Coordinate with EMS or search and rescue in emergency
+              situations<br />
+            </li>
+            <li>
+              manage cash flow and ensure that all transactions are completed
+              accurately<br />
+            </li>
+            <li>ensure that all customers have a positive experience<br /></li>
+            <li>
+              schedule and perform routine maintinence on fleet, dock, buildings
+              and opperational areas<br />
+            </li>
+            <li>
+              Promote the business through outdoor shows, fishing expos, and
+              local partnerships
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- web Developer skill card -->
+
+    <div class="flex justify-center lg:mt-24">
+      <div
+        class="flex flex-col items-center lg:flex-row bg-gray-800 dark:border-gray-700 mt-5 min-w-full"
+      >
+        <img
+          class="w-full object-cover h-25 sm:m-5 sm:h-72 sm:w-72 sm:rounded-full"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-mMNXwNn/3/758f6e1c/L/2012-07-17%2017.32.35-Website-2-L.jpg"
+          alt="A humanoid robot picture"
+        />
+        <div
+          class="flex flex-col justify-between p-4 lg:mx-28 leading-normal items-start"
+        >
+          <h5
+            class="text-center mb-2 text-2xl font-bold tracking-tight text-blue-700"
+          >
+            Web Developer
+          </h5>
+          <p class="text-lg mb-3 font-normal text-gray-300">
+            Details around my decisdion to code, my journey to becoming a web
+            developer, and my future goals as a developer. Lorem ipsum dolor sit
+            amet consectetur, adipisicing elit. Perspiciatis dolorum eos ullam
+            iste rerum maxime sit fugit quos repellendus saepe rem sint minima
+            consequuntur accusantium harum, nesciunt hic a repellat labore
+            ratione reiciendis. Esse dolores fugit hic minus et expedita,
+            maiores, id numquam placeat veniam commodi, neque omnis fugiat. Sunt
+            sint, accusantium officia eum, fuga, nulla eos nihil recusandae
+            atque pariatur aliquam veniam modi ipsa dolorum sed eius laudantium
+            possimus ad maiores illo beatae! Minima expedita vero illo qui
+            eveniet? Placeat quaerat eaque ullam enim magni, quidem voluptatibus
+            totam nobis soluta modi non, hic obcaecati omnis, saepe accusantium
+            esse! Dolorem.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- tools technologies and frameworks used -->
+    <div
+      class="flex flex-col text-center my-4 sm:my-12 text-5xl sm:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+    >
+      <h3 class="">TOOLS</h3>
+      <h3 class="">TECHNOLOGIES</h3>
+      <h3 class="">FRAMEWORKS</h3>
+    </div>
+
+    <section
+      class="my-10 flex-wrap flex flex-col justify-center items-center max-w-7xl mx-auto dark:text-white"
+    >
+      <h4 class="text-3xl sm:text-4xl font-extrabold my-auto sm:my-8">
+        PROFICIENCY
+      </h4>
+
+      <div class="justify-center items-center flex flex-wrap max-w-7xl">
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+          />
+          <h5 class="">HTML5</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+          />
+          <h5>CSS3</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+          />
+          <h5>ES6</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          />
+          <h5>React</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+          />
+          <h5>Git</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+          />
+          <h5>Node.js</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+          />
+          <h5>MongoDB</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://avatars.githubusercontent.com/u/7552965?s=88&v=4"
+          />
+          <h5>Mongoose</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+          />
+          <h5>Express</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+          />
+          <h5>Bootstrap</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square"
+            class="aspect-square align-top"
+            src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg"
+          />
+          <h5>Tailwind</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+          />
+          <h5>Npm</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" />
+          <h5>Postman</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/1024px-Google_Chrome_icon_%28September_2014%29.svg.png"
+          />
+          <h5>DevTools</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://raw.githubusercontent.com/webpack/media/3e52c178e6ad2428585a2cbf5d22d6dbe0697f0f/logo/icon-square-big.svg"
+          />
+          <h5>Webpack</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg"
+          />
+          <h5>Vite</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://camo.githubusercontent.com/2993f7180d5cc3231060f66cfa1f0f65a1d09c0efd68d08d0190902ba9200d81/68747470733a2f2f7777772e7376677265706f2e636f6d2f73686f772f3335333635352f646973636f72642d69636f6e2e737667"
+          />
+          <h5>DiscordJS</h5>
+        </div>
+      </div>
+
+      <!-- basic understanding of tools and technologies -->
+
+      <h4 class="text-3xl sm:text-4xl font-extrabold mt-10 sm:my-8">
+        SOME EXPERIENCE
+      </h4>
+
+      <div class="justify-center items-center flex flex-wrap max-w-5xl">
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+          />
+          <h5>Jest</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.freebiesupply.com/logos/thumbs/2x/sass-1-logo.png"
+          />
+          <h5>SASS</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://vitest.dev/logo.svg"
+          />
+          <h5>Vitest</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/02/Babel_Logo.svg"
+          />
+          <h5>Babel</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+          />
+          <h5>TypeScript</h5>
+        </div>
+        <div class="align-top font-bold text-center w-20 h-20 mx-3 my-4">
+          <img
+            class="aspect-square align-top"
+            src="https://camo.githubusercontent.com/f21f1fa29dfe5e1d0772b0efe2f43eca2f6dc14f2fede8d9cbef4a3a8210c91d/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313636323133303535392f6e6578746a732f49636f6e5f6c696768745f6261636b67726f756e642e706e67"
+          />
+          <h5>NextJS</h5>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-gray-800 h-1 w-full"></div>
+
+    <h5
+      class="text-center my-4 sm:my-12 text-5xl sm:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+    >
+      PROJECTS
+    </h5>
+
+    <!-- jr Web Development experience cards -->
+
+    <section
+      class="mx-2 flex flex-nowrap overflow-x-auto snap-x snap-mandatory"
+    >
+      <!-- LOTS OF BOTS -->
+
+      <div
+        class="slide mx-2 h-auto flex flex-col justify-between flex-none snap-always snap-center w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/4 bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <div>
+          <img
+            class="w-full h-64 object-cover"
+            src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4KptwHT/1/76aa9b61/X4/20230811_075823-X4.jpg"
+            alt="Sunset in the mountains"
+          />
+          <div class="sm:px-6 sm:py-4 p-1">
+            <div class="font-bold text-2xl mb-2 dark:text-white">
+              Lots Of Bots
+            </div>
+
+            <p class="text-gray-700 text-base dark:text-white">
+              A website to showcase and share my Discord bots. The Discord bots
+              were written using javascript, call on various REST APIs, and are
+              hosted on my raspberry pi running Linux, pictured above. lorem50
+            </p>
+          </div>
+          <div class="sm:px-6 sm:pt-4 py-auto">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >HTML</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >CSS</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >JavaScript</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >Tailwind</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >Discord.js</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >OpenAI</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >REST API</span
+            >
+          </div>
         </div>
         <div class="sm:px-6 sm:py-3 p-2">
           <button
-            class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus"
+            class="mt-auto hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus"
           >
             <h2 class="font-bold text-xl dark:text-white text-white">
-              <a class="cursor-pointer" href="https://lane-g-smith.github.io/Lanesmith.Info-Discord-Bots/"
+              <a
+                class="cursor-pointer"
+                href="https://lane-g-smith.github.io/Lanesmith.Info-Discord-Bots/"
                 >Explore</a
               >
             </h2>
           </button>
         </div>
       </div>
-      </div>
 
-      <!-- LANE G PHOTOGRAPHY -->
+      <!-- Lane G Photography -->
 
       <div
-        class="flex flex-col md:max-w-xl lg:max-w-lg rounded overflow-hidden shadow-lg lg:mx-3 my-2 dark:bg-slate-700 border border-black"
+        class="slide mx-2 h-auto flex flex-col justify-between flex-none snap-always snap-center w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/4 bg-white overflow-hidden dark:bg-slate-700 border border-black"
       >
-        <img
-          class="w-full h-2/5 object-cover"
-          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4xLwpH2/3/75491bf0/XL/lgp05806-3-2-XL.jpg"
-          alt="Sunset in the mountains"
-        />
-        <div class="sm:px-6 sm:py-4 p-1">
-          <div class="font-bold text-2xl mb-2 dark:text-white">
-            Lane G Photography (Coming Soon)
+        <div>
+          <img
+            class="w-full h-64 object-cover"
+            src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-thvC5fw/0/2534a833/X3/Carousel_Portfolio_Wedding_Portrait_Elopement_Family_Maternity_Photography_CactusMountainStudio%20%2858%29-X3.jpg"
+            alt="Sunset in the mountains"
+          />
+          <div class="sm:px-6 sm:py-4 p-1">
+            <div class="font-bold text-2xl mb-2 dark:text-white">
+              Lane G Photography (Coming Soon)
+            </div>
+
+            <p class="text-gray-700 text-base dark:text-white">
+              The reason that I accidentally fell in love with programming. This
+              is a redesign of my photography website, which I built as a means
+              to increase my seo and display my work in a way that basic website
+              builders would't permit.
+            </p>
           </div>
-
-          <p class="text-gray-700 text-base dark:text-white">
-            The reason that I accidentally fell in love with programming. This
-            is a redesign of my photography website, which I built as a means to
-            increase my seo and display my work in a way that basic website
-            builders would't permit.
-          </p>
-        </div>
-        <div class="mt-auto">
-        <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >HTML</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >CSS</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >JavaScript</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >Tailwind</span
-          >
-
+          <div class="sm:px-6 sm:pt-4 py-auto">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >HTML</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >CSS</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >JavaScript</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >Tailwind</span
+            >
+          </div>
         </div>
         <div class="sm:px-6 sm:py-3 p-2">
           <button
-            class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus"
+            class="mt-auto hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus"
           >
             <h2 class="font-bold text-xl dark:text-white text-white">
               <a class="cursor-pointer" href="">Explore</a>
             </h2>
           </button>
         </div>
-      </div>
       </div>
 
       <!-- Beautiful Basics -->
 
       <div
-        class="flex flex-col md:max-w-xl lg:max-w-lg rounded overflow-hidden shadow-lg lg:mx-3 my-2 dark:bg-slate-700 border border-black"
+        class="slide mx-2 h-auto flex flex-col justify-between flex-none snap-always snap-center w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/4 bg-white overflow-hidden dark:bg-slate-700 border border-black"
       >
-        <img
-          class="w-full h-2/5 object-cover"
-          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-5hpNKX8/0/668c5145/M/2023_08_11_09_03_04__Euler%20a_20_7_deliberate_v2_1563327847-M.jpg"
-          alt="Sunset in the mountains"
-        />
-        <div class="sm:px-6 sm:py-4 p-1">
-          <div class="font-bold text-2xl mb-2 dark:text-white">
-            Beautiful Basics (Coming Soon)
-          </div>
+        <div>
+          <img
+            class="w-full h-64 object-cover"
+            src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-5hpNKX8/0/668c5145/M/2023_08_11_09_03_04__Euler%20a_20_7_deliberate_v2_1563327847-M.jpg"
+            alt="Sunset in the mountains"
+          />
+          <div class="sm:px-6 sm:py-4 p-1">
+            <div class="font-bold text-2xl mb-2 dark:text-white">
+              Beautiful Basics (Coming Soon)
+            </div>
 
-          <p class="text-gray-700 text-base dark:text-white">
-            A compillation of simple programs, often the first that new
-            programmers learn but with a beautiful twist.
-          </p>
-        </div>
-        <div class="mt-auto">
-        <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >HTML</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >CSS</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >JavaScript</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >Tailwind</span
-          >
+            <p class="text-gray-700 text-base dark:text-white">
+              A compillation of simple programs, often the first that new
+              programmers learn but with a beautiful twist.
+            </p>
+          </div>
+          <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >HTML</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >CSS</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >JavaScript</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >Tailwind</span
+            >
+          </div>
         </div>
         <div class="sm:px-6 sm:py-3 p-2">
           <button
@@ -341,228 +868,776 @@
             </h2>
           </button>
         </div>
-      </div>
       </div>
 
       <!-- API library -->
 
       <div
-        class="flex flex-col md:max-w-xl lg:max-w-lg rounded overflow-hidden shadow-lg lg:mx-3 my-2 dark:bg-slate-700 border border-black"
+        class="slide mx-2 h-auto flex flex-col justify-between flex-none snap-always snap-center w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/4 bg-white overflow-hidden dark:bg-slate-700 border border-black"
       >
         <img
-          class="w-full h-2/5"
+          class="w-full h-64 object-cover"
           src="https://webimages.mongodb.com/_com_assets/cms/l65dhtchtsbcn16hk-image3.png?auto=format%252Ccompress"
           alt="Sunset in the mountains"
         />
         <div class="sm:px-6 sm:py-4 p-1">
-          <div class="font-bold text-2xl mb-2 dark:text-white">REST API Library (coming soon)</div>
+          <div class="font-bold text-2xl mb-2 dark:text-white">
+            REST API Library (coming soon)
+          </div>
 
           <p class="text-gray-700 text-base dark:text-white">
-            A library of simple REST APIs that can be used to build a variety of applications.
-
+            A library of simple REST APIs that can be used to build a variety of
+            applications.
           </p>
         </div>
         <div class="mt-auto">
-        <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >HTML</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >CSS</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >JavaScript</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >Tailwind</span
-          >
-          <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-          >MongoDB</span
-        >
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-          >Express</span
-        >
-        <span
-          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-          >React</span
-        >
+          <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >HTML</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >CSS</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >JavaScript</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >Tailwind</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >MongoDB</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >Express</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >React</span
+            >
+          </div>
+          <div class="sm:px-6 sm:py-3 p-2">
+            <button
+              class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus"
+            >
+              <h2 class="font-bold text-xl dark:text-white text-white">
+                <a class="cursor-pointer" href="">Explore</a>
+              </h2>
+            </button>
+          </div>
         </div>
-        <div class="sm:px-6 sm:py-3 p-2 flex-end">
-          <button
-            class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus"
-          >
-            <h2 class="font-bold text-xl dark:text-white text-white">
-              <a class="cursor-pointer" href="">Explore</a>
-            </h2>
-          </button>
-        </div>
-      </div>
       </div>
 
       <!-- project 5 -->
 
       <div
-        class="flex flex-col md:max-w-xl lg:max-w-lg rounded overflow-hidden shadow-lg lg:mx-3 my-2 dark:bg-slate-700 border border-black"
+        class="slide mx-2 h-auto flex flex-col justify-between flex-none snap-always snap-center w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/4 bg-white overflow-hidden dark:bg-slate-700 border border-black"
       >
         <img
-          class="w-full h-2/5"
+          class="w-full h-64 object-cover"
           src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-phCL8f7/0/7f0b0e1d/M/2023_08_11_10_38_29__Euler%20a_40_5_deliberate_v2_684871181-M.jpg"
           alt="Sunset in the mountains"
         />
         <div class="sm:px-6 sm:py-4 p-1">
-          <div class="font-bold text-2xl mb-2 dark:text-white">Mobile Game (coming soon) </div>
+          <div class="font-bold text-2xl mb-2 dark:text-white">
+            Mobile Game (coming soon)
+          </div>
           <p class="text-gray-700 text-base dark:text-white">
-            This game was built for mobile with the phaser game engine, but can be played on any device.
+            This game was built for mobile with the phaser game engine, but can
+            be played on any device.
           </p>
         </div>
         <div class="mt-auto">
-        <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >HTML</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >JavaScript</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >Phaser</span
-          >
+          <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >HTML</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >JavaScript</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >Phaser</span
+            >
+          </div>
+          <div class="sm:px-6 sm:py-3 p-2">
+            <button
+              class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus my-auto"
+            >
+              <h2 class="font-bold text-xl dark:text-white text-white">
+                <a class="cursor-pointer" href="">Explore</a>
+              </h2>
+            </button>
+          </div>
         </div>
-        <div class="sm:px-6 sm:py-3 p-2">
-          <button
-            class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus"
-          >
-            <h2 class="font-bold text-xl dark:text-white text-white">
-              <a class="cursor-pointer" href="">Explore</a>
-            </h2>
-          </button>
-        </div>
-      </div>
       </div>
 
       <!-- Project 6 -->
 
       <div
-        class="flex flex-col md:max-w-xl lg:max-w-lg rounded overflow-hidden shadow-lg lg:mx-3 my-2 dark:bg-slate-700 border border-black"
+        class="mx-2 h-auto flex flex-col justify-between flex-none snap-always snap-center w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/4 bg-white overflow-hidden dark:bg-slate-700 border border-black"
       >
         <img
-          class="w-full h-2/5"
+          class="w-full h-64 object-cover"
           src="https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg"
           alt="Sunset in the mountains"
         />
         <div class="sm:px-6 sm:py-4 p-1">
-          <div class="font-bold text-2xl mb-2 dark:text-white">Undecided Project (Coming Soon)</div>
+          <div class="font-bold text-2xl mb-2 dark:text-white">
+            Undecided Project (Coming Soon)
+          </div>
 
           <p class="text-gray-700 text-base dark:text-white">
             Maybe a game? Maybe a website?
           </p>
         </div>
         <div class="mt-auto">
-        <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >HTML</span
+          <div class="sm:px-6 sm:pt-4 pb-2 pt-2">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >HTML</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >CSS</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >JavaScript</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              >Tailwind</span
+            >
+          </div>
+          <div class="sm:px-6 sm:py-3 p-2">
+            <button
+              class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus"
+            >
+              <h2 class="font-bold text-xl dark:text-white text-white">
+                <a class="cursor-pointer" href="">Explore</a>
+              </h2>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Entrepeneur skill card-->
+
+    <div class="flex justify-center lg:mt-24">
+      <div
+        class="flex flex-col items-center lg:flex-row bg-gray-800 dark:border-gray-700 mt-5 min-w-full"
+      >
+        <img
+          class="w-full object-cover h-25 sm:m-5 sm:h-72 sm:w-72 sm:rounded-full"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-thvC5fw/0/2534a833/X3/Carousel_Portfolio_Wedding_Portrait_Elopement_Family_Maternity_Photography_CactusMountainStudio%20%2858%29-X3.jpg"
+          alt="A humanoid robot picture"
+        />
+        <div
+          class="flex flex-col justify-between p-4 lg:mx-28 leading-normal items-start"
+        >
+          <h5
+            class="text-center mb-2 text-2xl font-bold tracking-tight text-blue-700"
           >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >CSS</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >JavaScript</span
-          >
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-            >Tailwind</span
-          >
+            Entrepreneur
+          </h5>
+          <p class="text-lg mb-3 font-normal text-gray-300">
+            Text about the circumstances surrounding my photography business
+            startup. What I learned and what I enjoy about managing all aspcts
+            of the business. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Atque deleniti eos in tempora earum laboriosam et quis facere
+            laudantium esse fugiat reiciendis quidem officia, doloremque eum
+            suscipit similique cumque omnis aut doloribus modi ullam corporis!
+            Quos ratione, ducimus facilis in nisi tempora expedita ullam quod
+            quaerat, optio dolore repudiandae? At magni reprehenderit temporibus
+            alias aliquam sunt iure repellendus laboriosam omnis saepe odit
+            laborum, facilis nesciunt vero explicabo natus quaerat beatae.
+            Fugiat eligendi quibusdam iste minima enim laudantium rem quia neque
+            commodi dignissimos voluptas asperiores quo eveniet vitae quasi
+            consequuntur in doloremque, tenetur architecto eos nobis. Expedita
+            officia explicabo ullam dolorum.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h3
+      class="text-center my-4 sm:my-12 text-6xl sm:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+    >
+      COMPANIES
+    </h3>
+
+    <!-- company cards -->
+
+    <!-- Lane G Photography -->
+
+    <div class="flex flex-col mb-10 mx-2">
+      <div
+      class="bg-[url(https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-thvC5fw/0/2534a833/X3/Carousel_Portfolio_Wedding_Portrait_Elopement_Family_Maternity_Photography_CactusMountainStudio%20%2858%29-X3.jpg)] lg:aspect-video w-full bg-top bg-cover bg-no-repeat  mx-auto rounded-lg max-w-7xl overflow-hidden"
+      >
+        <div class="h-fit sm:px-6 sm:py-4 p-1">
+          <div class="font-bold text-2xl md:text-3xl mb-2 text-white">
+            Lane G Photography
+          </div>
+
+          <p class="md:text-lg text-white">
+            Describe the business, when and why I started it, how it is going
+            now, and emphasize that it isn't full time, I've automated
+            everything, and it won't interfere with another full time job.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            rem officia laudantium eos dolor, voluptatum deleniti ad eius
+            recusandae quia alias quae ducimus vitae sunt exercitationem
+            adipisci. Est quibusdam, ab ex quas voluptatibus assumenda ut
+            voluptatem iure recusandae temporibus officiis! Minima libero
+            dignissimos voluptatum facere cum saepe id? Explicabo doloremque
+            dolore maxime doloribus, illum assumenda laboriosam ut fugiat non
+            iusto dignissimos similique, voluptatem iste inventore! Unde
+            quisquam nihil aspernatur nostrum sit recusandae minus eaque,
+            accusamus, quaerat odio debitis ipsam, ratione aliquam laboriosam
+            minima voluptatem reprehenderit autem optio sed. Aliquid deserunt
+            tempore nesciunt. Aperiam veniam voluptatem, in mollitia eaque quod
+            hic.
+          </p>
         </div>
         <div class="sm:px-6 sm:py-3 p-2">
           <button
-            class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus"
+            class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-zinc-900 hover:focus"
           >
             <h2 class="font-bold text-xl dark:text-white text-white">
-              <a class="cursor-pointer" href="">Explore</a>
+              <a class="cursor-pointer" href="https://lanegphotography.com/"
+                >Explore</a
+              >
             </h2>
           </button>
         </div>
       </div>
+    </div>
+
+    <!-- Cactus Mountain Studio -->
+
+    <div class="flex flex-col mx-2">
+      <div
+        class="bg-[url(https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-JBbpGGF/0/ee5b7cee/X2/IMG_20190302_072918_925-X2.jpg)] lg:aspect-video w-full bg-center bg-cover bg-no-repeat  mx-auto rounded-lg max-w-7xl overflow-hidden"
+        >
+        <div class="h-fit sm:px-6 sm:py-4 p-1">
+          <div class="font-bold text-2xl md:text-3xl mb-2 text-white">
+            Cactus Mountain Studio LLC
+          </div>
+
+          <p class="md:text-lg text-white">
+            Describe the business, when and why I started it, how it is going
+            now, and emphasize that it isn't full time, I've automated
+            everything, and it won't interfere with another full time job.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            rem officia laudantium eos dolor, voluptatum deleniti ad eius
+            recusandae quia alias quae ducimus vitae sunt exercitationem
+            adipisci. Est quibusdam, ab ex quas voluptatibus assumenda ut
+            voluptatem iure recusandae temporibus officiis! Minima libero
+            dignissimos voluptatum facere cum saepe id? Explicabo doloremque
+            dolore maxime doloribus, illum assumenda laboriosam ut fugiat non
+            iusto dignissimos similique, voluptatem iste inventore! Unde
+            quisquam nihil aspernatur nostrum sit recusandae minus eaque,
+            accusamus, quaerat odio debitis ipsam, ratione aliquam laboriosam
+            minima voluptatem reprehenderit autem optio sed. Aliquid deserunt
+            tempore nesciunt. Aperiam veniam voluptatem, in mollitia eaque quod
+            hic.
+          </p>
+        </div>
+        <div class="sm:px-6 sm:py-3 p-2">
+          <button
+            class="hover:scale-110 duration-100 hover:duration-100 px-4 py-2 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-zinc-900 hover:focus"
+          >
+            <h2 class="font-bold text-xl dark:text-white text-white">
+              <a class="cursor-pointer" href="https://lanegphotography.com/"
+                >Explore</a
+              >
+            </h2>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lifelong Learner Skill Card-->
+
+    <div class="flex justify-center lg:mt-24">
+      <div
+        class="flex flex-col items-center lg:flex-row bg-gray-800 dark:border-gray-700 my-5 min-w-full"
+      >
+        <img
+          class="w-full object-cover h-25 sm:m-5 sm:h-72 sm:w-72 sm:rounded-full"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-thvC5fw/0/2534a833/X3/Carousel_Portfolio_Wedding_Portrait_Elopement_Family_Maternity_Photography_CactusMountainStudio%20%2858%29-X3.jpg"
+          alt="A humanoid robot picture"
+        />
+        <div
+          class="flex flex-col justify-between p-4 lg:mx-28 leading-normal items-start"
+        >
+          <h5
+            class="text-center mb-2 text-2xl font-bold tracking-tight text-blue-700"
+          >
+            Lifelong Learner
+          </h5>
+          <p class="text-lg mb-3 font-normal text-gray-300">
+            Explain how I have always been learning new things. I enjoy gaining
+            new skills bla bla. List of different certifications and
+            qualifications below including musical instruments, classes,
+            etc.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            deleniti eos in tempora earum laboriosam et quis facere laudantium
+            esse fugiat reiciendis quidem officia, doloremque eum suscipit
+            similique cumque omnis aut doloribus modi ullam corporis! Quos
+            ratione, ducimus facilis in nisi tempora expedita ullam quod
+            quaerat, optio dolore repudiandae? At magni reprehenderit temporibus
+            alias aliquam sunt iure repellendus laboriosam omnis saepe odit
+            laborum, facilis nesciunt vero explicabo natus quaerat beatae.
+            Fugiat eligendi quibusdam iste minima enim laudantium rem quia neque
+            commodi dignissimos voluptas asperiores quo eveniet vitae quasi
+            consequuntur in doloremque, tenetur architecto eos nobis. Expedita
+            officia explicabo ullam dolorum.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lifelong learner experience Cards-->
+
+    <section
+      class="grid gap-2 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 mx-2"
+    >
+      <!-- Sonora High School  -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Sonora High School
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            1999-2003
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Motorcycle Mechanics Institute -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Motorcycle Mechanics Institute
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Class A commercial drivers license -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Class A Commercial Drivers License Training
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Guide School -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Whitewater Voyages Guide School
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- cypress college -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Cypress College
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- California Institute of Emergency Medical Training -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            California Institute of Emergency Medical Training
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Arizona medical training institute -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Arizona Medical Training Institute
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- NOLS Wilderness EMT first responder certification -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            NOLS Wilderness EMT First Responder Certification
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- food handlers certification -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Food Handler certification
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Northern Arizona University -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Northern Arizona University
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- self taught musician -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Guitar
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Odin Project & development -->
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Odin Project
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2005-2006
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Honda Certified Technician: motorcycle, quad, side-cy-side,
+              outboard marine engine<br />
+            </li>
+            <li>Yamaha Certified Technician: motorcycle, quad, jetski<br /></li>
+            <li>Kawasaki Certified Technician: motorcycle, quad<br /></li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="bg-white overflow-hidden dark:bg-slate-700 border border-black"
+      >
+        <img
+          class="object-left w-full sm:h-60 object-cover"
+          src="https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-4qVtk5q/0/cfad7468/X4/20191121_121751-X4.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div class="mx-1 sm:pl-4 dark:text-white">
+          <div
+            class="font-bold text-sm sm:text-base md:text-lg lg:text-base dark:text-white"
+          >
+            Lorem, ipsum.
+          </div>
+          <div
+            class="font-bold text-sm sm:text-lg md:text-lg lg:text-base dark:text-white"
+          >
+            2000-2000
+          </div>
+          <ul class="pl-5 sm:pl-2 list-disc text-xs sm:text-sm md:text-base">
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores, tempore quasi. Minima a placeat fugiat.<br />
+            </li>
+            <li>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+              beatae voluptatem maiores dolore commodi ullam.<br />
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
+    <!-- footer -->
+
     <footer class="mt-12 mb-8 flex flex-col sm:flex-row justify-around">
-
-      <!-- technologies used for page -->
-
-      <div class="self-center shrink-0">
-        <table class="block text-xs font-bold text-center dark:text-white">
-          <th>Built Using</th>
-          <tr class="h-2">
-            <td class="inline-block align-bottom w-16">
-              <img
-                class="h-8 w-8 fa-brands fa-html5 fa-2xs"
-                style="color: #ff0000"
-              />
-              <h2 class=""><strong>HTML5</strong></h2>
-            </td>
-            <td class="inline-block align-bottom w-16">
-              <img
-                class="h-8 w-8 fa-brands fa-css3-alt fa-2xs"
-                style="color: #005eff"
-              />
-              <h2 class=""><strong>CSS3</strong></h2>
-            </td>
-            <td class="inline-block align-bottom w-16">
-              <img
-                class="h-8 w-8 fa-brands fa-square-js fa-2xs"
-                style="color: #ffdd00"
-              />
-              <h2 class=""><strong>ES6</strong></h2>
-            </td>
-            <td class="inline-block align-bottom w-16">
-              <img
-                class="p-3 h-11 w-full justify-start bg-cover"
-                src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg"
-              />
-              <h2 class="text-center"><strong>TAILWIND</strong></h2>
-            </td>
-          </tr>
-        </table>
-      </div>
-
-      <!-- social media links -->
-
-      <div class="pt-4 sm:self-end self-center shrink-0">
-      <button class="hover:scale-110 duration-100 hover:duration-100 h-8 w-8 align-bottom mx-2">
-        <a href="https://www.linkedin.com/in/lane-g-smith"
-          ><img
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-        /></a></button>
-      <button class="hover:scale-110 duration-100 hover:duration-100 h-8 w-8 mx-2 align-bottom">
-        <a href="https://github.com/Lane-G-Smith">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLHv_jIswdZGXPRC_L76ITDc4nxvOO8tF22AYPXvpnO50JSvbKcPf59QRmP6GxNglhGyI&usqp=CAU"
-        /></a>
-        </button>
-      <button class="h-8 sm:mr-5 hover:scale-110 duration-100 hover:duration-100 px-2 py-1 font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus mx-2">
-        <h2 class="font-bold text-sm text-white">
-          <a class="cursor-pointer" href="https://github.com/Lane-G-Smith/lanesmith.info">Website-Code</a>
-        </h2>
-      </button>
-      </div>
-
-      <!-- footer text -->
-
-    <h2 class="dark:text-white font-bold pt-4 text-center align-text-bottom sm:self-end">Web Design By Lane Smith</h2>
+      <h2
+        class="dark:text-white font-bold pt-4 text-center align-text-bottom sm:self-end"
+      >
+        Web Design By Lane Smith 2023
+      </h2>
     </footer>
     <script src="./scripts/main.js "></script>
     <script src="./scripts/darkmode.js"></script>
+    <script src="./scripts/carousel.js"></script>
   </body>
 </html>
