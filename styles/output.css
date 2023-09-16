@@ -664,6 +664,10 @@ video {
   z-index: 50;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .m-1 {
   margin: 0.25rem;
 }
@@ -1288,6 +1292,11 @@ video {
   width: auto;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1645,6 +1654,14 @@ video {
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.scroll-auto {
+  scroll-behavior: auto;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .break-normal {
@@ -2690,6 +2707,12 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-100 {
   transition-duration: 100ms;
 }
@@ -2700,6 +2723,14 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.will-change-scroll {
+  will-change: scroll-position;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .hover\:scale-110:hover {
@@ -2921,10 +2952,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:absolute {
-    position: absolute;
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
@@ -2957,10 +2984,6 @@ video {
 
   .lg\:mb-12 {
     margin-bottom: 3rem;
-  }
-
-  .lg\:ml-12 {
-    margin-left: 3rem;
   }
 
   .lg\:mr-12 {
