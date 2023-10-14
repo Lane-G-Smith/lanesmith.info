@@ -5,7 +5,7 @@ const themeToggle = document.getElementById('theme-toggle');
 themeToggle.addEventListener('click', () => {themeSwitch()
 });
 
-// use the prefered user theme if set
+// use the preferred user theme if set
 const userTheme = localStorage.getItem('theme');
 
 // use the system theme if a default is set
