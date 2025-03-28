@@ -1,528 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags for character set, compatibility, and viewport -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page Title -->
     <title>Lane Smith Info</title>
+    <!-- Link to Tailwind CSS output file -->
     <link href="./styles/output.css" rel="stylesheet" />
+    <!-- Link to Font Awesome for icons -->
     <script
       src="https://kit.fontawesome.com/a8cc471b41.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  
+
+  <!-- Body with default light background, dark mode background, and smooth scrolling on small screens -->
   <body class="sm:scroll bg-white dark:bg-gray-950">
 
-    <!-- navbar -->
+    <!-- ==== Navbar Section ==== -->
+    <nav class="absolute w-full flex justify-start items-start p-2">
 
-    <nav
-      class="absolute w-full flex justify-start items-start p-2"
-    >
-      <!-- dark mode button -->
-
+      <!-- Dark Mode Toggle Button -->
       <button
         id="theme-toggle"
         type="button"
-        class="p-1 my-2 flex text-blue-700 hover:scale-110 duration-100 hover:duration-100 rounded-lg text-sm "
+        class="p-1 my-2 flex text-blue-700 hover:scale-110 duration-100 hover:duration-100 rounded-lg text-sm"
       >
         <span class="p-1 font-bold">Dark</span>
         <i class="h-8 w-8 fa-regular fa-moon fa-2xs" style="color: #1a56db"></i>
       </button>
 
-      <!-- resume page -->
+      <!-- Placeholder/Link for Resume (if needed in navbar) -->
+      <!-- <a href="path/to/resume.pdf" class="ml-auto p-1 my-2 ...">Resume</a> -->
 
     </nav>
+    <!-- ==== End Navbar Section ==== -->
 
-    <!-- Main introduction area -->
-
+    <!-- ==== Main Introduction Section ==== -->
     <section class="fadeInUp-animation pt-14 xl:mx-auto flex justify-center max-w-7xl">
       <div class="flex-col w-full">
-        <div
-          class="flex flex-col md:flex-row text-center items-center justify-between mb-6 sm:mb-10 text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 dark:text-white"
-        >
-        <h2 class= "md:ml-8 hover:scale-125 duration-100 hover:duration-100 md:hover:translate-x-4 xl:hover:translate-x-0 cursor-pointer scroll-smooth"><a  href="#Project_Manager_Location">Operations Manager</a></h2>
-        <h2 class= "mx-2 hover:scale-125 duration-100 hover:duration-100 lg:mx-12 cursor-pointer scroll-smooth"><a  href="#Software_Location">Software Developer</a></h2>
-        <h2 class= "md:mr-8 hover:scale-125 duration-100 hover:duration-100 md:hover:-translate-x-4 xl:hover:translate-x-0 cursor-pointer scroll-smooth"><a  href="#Entrepreneur_Location">Entrepreneur</a></h2>
-      </div>
-      <h1
-      class="text-center mb-2 sm:mb-10 text-8xl sm:text-9xl font-extrabold tracking-tight text-gray-900 dark:text-white"
-    >
-      LANE SMITH
-    </h1>
-        <img class="border-2 mx-auto sm:h-96 sm:w-96 h-72 w-72 rounded-full object-right-top my-4 sm:my-8" src="assets/ProfilePhoto.jpg" alt="Profile Image of Lane Smith">
 
-        <!-- social media and business links -->
+        <!-- Role Titles / Navigation Links -->
+        <div class="flex flex-col md:flex-row text-center items-center justify-between mb-6 sm:mb-10 text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h2 class="md:ml-8 hover:scale-125 duration-100 hover:duration-100 md:hover:translate-x-4 xl:hover:translate-x-0 cursor-pointer scroll-smooth">
+            <a href="#Project_Manager_Location">Operations Manager</a>
+          </h2>
+          <h2 class="mx-2 hover:scale-125 duration-100 hover:duration-100 lg:mx-12 cursor-pointer scroll-smooth">
+            <a href="#Software_Location">Software Developer</a>
+          </h2>
+          <h2 class="md:mr-8 hover:scale-125 duration-100 hover:duration-100 md:hover:-translate-x-4 xl:hover:translate-x-0 cursor-pointer scroll-smooth">
+            <a href="#Entrepreneur_Location">Entrepreneur</a>
+          </h2>
+        </div>
 
-          <div class="h-16 my-4 sm:my-8 flex justify-center dark:text-white">
-              <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 mx-4 sm:mx-8" target="_blank" href="https://www.linkedin.com/in/lane-g-smith">
-                <i class="text-gray-900 aspect-square fa-brands fa-linkedin p-1 h-fit w-fit"></i>
-                <h2 class="font-bold text-xs h-1/2 w-full text-center">Profile</h2>
-              </a>
-              <a class="rounded-xl dark:bg-white hover:scale-125 duration-100 hover:duration-100 h-14 w-14 mx-4 sm:mx-8 align-middle" target="_blank" href="https://github.com/Lane-G-Smith">
-                <i class="text-gray-900 text-center aspect-square fa-brands fa-github p-1 h-fit w-fit"></i>
-                <h2 class="font-bold text-xs h-1/2 w-full text-center">Code</h2>
-              </a>
-              <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 mx-4 sm:mx-8" target="_blank" href="https://www.lanegphotography.com/">
-                <i class="text-gray-900 aspect-square fa-solid fa-camera p-1 h-fit w-fit"></i>
-                <h2 class="font-bold text-xs h-1/2 w-full text-center">Photo</h2> 
-              </a>
-              <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 mx-4 sm:mx-8" target="_blank" href="https://candlemagicstudio.com/">
-                <i class="text-gray-900 aspect-square fa-solid fa-palette p-1 h-fit w-fit"></i>
-                <h2 class="font-bold text-xs h-1/2 w-full text-center">Art</h2>
-              </a>
-              <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 mx-4 sm:mx-8"target="_blank" href="https://www.lanesmith.info/assets/SmithResume2025.pdf" download="SmithResume2025.pdf">      
-                  <i class="text-gray-900 aspect-square fa-solid fa-file-arrow-down p-1 h-fit w-fit"></i>
-                  <h2 class="font-bold text-xs h-1/2 w-full text-center">Resume</h2>             
-              </a>
-          </div>
+        <!-- Main Name Heading -->
+        <h1 class="text-center mb-2 sm:mb-10 text-8xl sm:text-9xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+          LANE SMITH
+        </h1>
+
+        <!-- Profile Image -->
+        <img
+          class="border-2 mx-auto sm:h-96 sm:w-96 h-72 w-72 rounded-full object-cover object-right-top my-4 sm:my-8"
+          src="assets/ProfilePhoto.jpg"
+          alt="Profile Image of Lane Smith"
+        />
+
+<!-- Social Media and Business Links -->
+<div class="h-auto my-4 sm:my-8 flex justify-center items-center flex-wrap dark:text-white">
+  <!-- LinkedIn Link -->
+  <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-20 sm:w-20  m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" target="_blank" href="https://www.linkedin.com/in/lane-g-smith">
+      <span class="h-1/2 w-full flex items-center justify-center">
+          <i class="text-gray-900 fa-brands fa-linkedin text-3xl sm:text-4xl md:text-5xl lg:text-6xl"></i>
+      </span>
+      <h2 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+          Profile
+      </h2>
+  </a>
+
+  <!-- GitHub Link -->
+  <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-20 sm:w-20  m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" target="_blank" href="https://github.com/Lane-G-Smith">
+      <span class="h-1/2 w-full flex items-center justify-center">
+          <i class="text-gray-900 fa-brands fa-github text-3xl sm:text-4xl md:text-5xl lg:text-6xl"></i>
+      </span>
+      <h2 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+          Code
+      </h2>
+  </a>
+
+  <!-- Photography Link -->
+  <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-20 sm:w-20  m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" target="_blank" href="https://www.lanegphotography.com/">
+      <span class="h-1/2 w-full flex items-center justify-center">
+          <i class="text-gray-900 fa-solid fa-camera text-3xl sm:text-4xl md:text-5xl lg:text-6xl"></i>
+      </span>
+      <h2 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+          Photo
+      </h2>
+  </a>
+
+  <!-- Art/Candle Link -->
+  <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-20 sm:w-20  m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" target="_blank" href="https://candlemagicstudio.com/">
+      <span class="h-1/2 w-full flex items-center justify-center">
+          <i class="text-gray-900 fa-solid fa-palette text-3xl sm:text-4xl md:text-5xl lg:text-6xl"></i>
+      </span>
+      <h2 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+          Art
+      </h2>
+  </a>
+
+  <!-- Resume Download Link -->
+  <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-20 sm:w-20  m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" target="_blank" href="https://www.lanesmith.info/assets/SmithResume2025.pdf" download="SmithResume2025.pdf">
+      <span class="h-1/2 w-full flex items-center justify-center">
+          <i class="text-gray-900 fa-solid fa-file-arrow-down text-3xl sm:text-4xl md:text-5xl lg:text-6xl"></i>
+      </span>
+      <h2 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+          Resume
+      </h2>
+  </a>
+
+  <!-- Contact Link -->
+  <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-20 sm:w-20  m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" href="mailto:your.email@example.com"> <!-- Changed href to mailto: -->
+      <!-- Make sure to replace your.email@example.com with the actual email -->
+      <span class="h-1/2 w-full flex items-center justify-center">
+          <i class="text-gray-900 fa-solid fa-envelope text-3xl sm:text-4xl md:text-5xl lg:text-6xl"></i>
+      </span>
+      <h2 class="font-bold text-xs sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+          Contact
+      </h2>
+  </a>
+
+</div>
       </div>
     </section>
+    <!-- ==== End Main Introduction Section ==== -->
 
-    <!-- operations manager area -->
+    <!-- ==== Operations Manager Section ==== -->
+    <section class="overflow-hidden mx-2 my-6 xl:mx-16 flex flex-col text-black dark:text-white bg-gray-900 rounded-xl dark:border shadow-md shadow-slate-400 dark:shadow-none">
 
-    <section class="overflow-hidden mx-2 my-6 xl:mx-16 flex flex-col text-black dark:text-white bg-gray-900 rounded-xl dark:border shadow-md shadow-slate-400 dark:shadow-none ">
-
-    <!-- operations Management top area-->
-
-        <div class="text-white flex flex-col items-center lg:flex-row justify-center"
-        id="Project_Manager_Location">
+      <!-- Operations Manager Top Area (Intro) -->
+      <div class="text-white flex flex-col items-center lg:flex-row justify-center" id="Project_Manager_Location">
+        <!-- Section Image -->
         <img
           class="lg:border w-full object-cover h-25 sm:m-4 sm:h-72 sm:w-72 sm:rounded-full"
           src="assets/GolfCart.jpg"
-          alt="A humanoid robot picture"
+          alt="Man driving a golf cart, representing operations"
         />
-        <div
-          class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal"
-        >
-          <h5
-            class="text-center lg:text-start mb-2 text-2xl font-bold tracking-tight text-blue-700 dark:text-blue-500"
-          >
+        <!-- Section Description -->
+        <div class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal">
+          <h5 class="text-center lg:text-start mb-2 text-2xl font-bold tracking-tight text-blue-700 dark:text-blue-500">
             OPERATIONS MANAGER
           </h5>
           <p class="p-4 text-s md:text-base lg:text-xl mb-3 font-normal">
             With extensive experience leading teams and managing various projects I have developed a strong ability to drive the execution of strategic plans and manage complex assignments under tight deadlines. My exposure to diverse industry sectors has helped to hone my skills in understanding business operations, facilitating communication among various departments, and implementing project management methodologies. Possessing sound decision-making abilities, effective leadership qualities, and excellent problem-solving skills, I have a proven track record of ensuring projects are delivered on time and within budget while meeting high quality standards. My knack for fostering strong relationships with clients and team members has often been commended, illustrating my skills in teamwork and client relations.
           </p>
-          </div>
-        </div>
-
-      <!-- operations management experience cards -->
-
-      <div class="dark:text-white p-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3" >
-
-      <!-- Professional River Outfitters -->
-
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-36 sm:h-96 object-cover object-top"
-          src="assets/PRO.jpg"
-          alt="Sunset in the mountains"
-        />
-        <div class="sm:px-6 sm:py-2 p-1">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            Professional River Outfitters
-          </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Drive Manager & Field Supervisor
-          </div>
-          <div class="font-bold text-base mb-1">2017-2020</div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
-            <li>Communicate procedures, schedules, expectations, and safety protocols.<br /></li>
-            <li>Delegate tasks to staff and instruct clients on NPS guidelines and procedures.<br /></li>
-            <li>Transport company and client equipment to and from remote destinations.<br /></li>
-            <li>Inventory, maintenance, service, repair scheduling, and overall upkeep of complex company equipment.<br /></li>
-            <li>Schedule and perform maintenance and safety checks on company vehicles.<br /></li>
-            <li>Train and supervise drive staff to follow proper safety procedures and company policies.<br /></li>
-          </ul>
         </div>
       </div>
+      <!-- End Operations Manager Top Area -->
 
-      <!-- Canyon River Equipment Outfitters -->
+      <!-- Operations Management Experience Cards Grid -->
+      <div class="dark:text-white p-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
 
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-36 sm:h-96 object-cover object-left"
-          src="assets/REO.jpg"
-          alt="Sunset in the mountains"
-        />
-        <div class="sm:px-6 sm:py-2 p-1">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            Canyon River Equipment Outfitters
-          </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Field Manager
-          </div>
-          <div class="font-bold text-base mb-1">2014-2020</div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
-            <li>Provide leadership to maintain organization and time efficiency.<br /></li>
-            <li>Share knowledge and skills with clients lacking experience and knowledge.<br /></li>
-            <li>Provide live demonstrations on the use of all company equipment.<br /></li>
-            <li>Teach clients about preservation, leave no trace, and NPS guidelines.<br /></li>
-            <li>Provide training on setup, maintenance, and use of all company equipment.<br /></li>
-            <li>Camp with clients, tend to their needs, and prepare their meals.<br /></li>
-            <li>Build rapport with clients while representing the company.<br /></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- DJs snowmobile adventures -->
-
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-36 sm:h-96 object-cover object-bottom"
-          src="assets/DJS.jpg"
-          alt="Sunset in the mountains"
-        />
-        <div class="sm:px-6 sm:py-2 p-1">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            DJ's Snowmobile Adventures
-          </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Field Manager
-          </div>
-          <div class="font-bold text-base mb-1">2007-2012</div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
-            <li>Instruct guests on snowmobile operations and safety procedures.<br /></li>
-            <li>Lead guided snowmobile tours through remote terrain and hazardous conditions with a heavy emphasis on safety.<br /></li>
-            <li>Provide local historical and geographical interpretation.<br /></li>
-            <li>Respond to accidents and coordinate with emergency medical services.<br /></li>
-            <li>Manage guides, trip locations, time in the field, schedules, and take reservations.<br /></li>
-            <li>Promote the highest quality guest experience and maintain safe operations.<br /></li>
-            <li>Patrol the field to ensure clients are following safety procedures and company policies.<br /></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Zephyr Whitewater Expeditions -->
-
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-36 sm:h-96 object-cover object-center"
-          src="assets/Zephyr.jpg"
-          alt=""
-        />
-        <div class="sm:px-6 sm:py-2 p-1">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            Zephyr Whitewater Expeditions
-          </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Trip Leader & Guide
-          </div>
-        <div class="font-bold text-base mb-1">2011-2015</div>
-
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
-            <li>Contribute to a positive, supportive, and collaborative team atmosphere.<br /></li>
-            <li>Assign tasks and duties to staff members.<br /></li>
-            <li>Conduct safety seminars for clients on equipment and emergency protocols.<br /></li>
-            <li>Transport clients in company trucks, buses, and vans.<br /></li>
-            <li>Keep vehicles clean, conduct safety checks, and detect mechanical problems.<br /></li>
-            <li>Promoted sales of future trips increasing company profitability.<br /></li>
-            <li>Engage clients in friendly conversation, fun, and games to build rapport.<br/></li>
-            <li>Delegate meal prep and cleanup following NPS leave-no-trace guidelines.<br/></li>
-            <li>Prepare, inventory, pack, unpack, clean, inspect, and store equipment.<br/></li>
-            <li>Lead multiple staff meetings throughout the day to keep everyone up-to-date.<br/></li>
-            <li>Lead hikes and/or other activities to enrich guests' experiences.<br/></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Whitewater Voyages -->
-
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-36 sm:h-96 object-cover object-top"
-          src="assets/Voyages.jpg"
-          alt=""
-        />
-        <div class="sm:px-6 sm:py-2 p-1">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            Whitewater Voyages
-          </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Trip Leader,Guide & Bus Driver
-          </div>
-          <div class="font-bold text-base mb-1">2011-2015</div>
-
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
-            <li>Contribute to a positive, supportive, and collaborative team atmosphere.<br /></li>
-            <li>Assign tasks and duties to staff members.<br /></li>
-            <li>Conduct safety seminars for clients on equipment and emergency protocols.<br /></li>
-            <li>Transport clients in company trucks, buses, and vans.<br /></li>
-            <li>Keep vehicles clean, conduct safety checks, and detect mechanical problems.<br /></li>
-            <li>Promoted sales of future trips increasing company profitability.<br /></li>
-            <li>Engage clients in friendly conversation, fun, and games to build rapport.<br/></li>
-            <li>Delegate meal prep and cleanup following NPS leave-no-trace guidelines.<br/></li>
-            <li>Prepare, inventory, pack, unpack, clean, inspect, and store equipment.<br/></li>
-            <li>Lead multiple staff meetings throughout the day to keep everyone up-to-date.<br/></li>
-            <li>Lead hikes and/or other activities to enrich guests' experiences.<br/></li>
-          </ul>
-        </div>
-      </div>
-      <!-- south lake boat landing -->
-
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden  border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-36 sm:h-96 object-cover object-center"
-          src="assets/SouthLake.jpg"
-          alt="Lane standing in water wearing a wetsuit, retrieving an outboard boat motor that sank after a storm"
-        />
-        <div class="sm:px-6 sm:py-2 p-1">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            South Lake Boat Landing
+        <!-- Card: Professional River Outfitters -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-top"
+            src="assets/PRO.jpg"
+            alt="River rafting equipment ready for transport"
+          />
+          <div class="sm:px-6 sm:py-2 p-1">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Professional River Outfitters
             </div>
             <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Operations Supervisor
+              Drive Manager & Field Supervisor
             </div>
-            <div class="font-bold text-base sm:mb-1">2006-2010</div>
-           <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
-              <li>Create project lists, inventory and order products, maintain equipment, and maintain operational areas.<br /></li>
-              <li>Relationship management with vendors, ordering products, record keeping, and contracts.<br /></li>
-              <li>Employee performance evaluation and training.<br /></li>
-              <li>Communicate procedures, schedules, expectations, and safety protocols to clients and staff.<br /></li>
-              <li>Schedule and perform regular maintenance and safety checks on the marine fleet.<br /></li>
+            <div class="font-bold text-base mb-1">2017-2020</div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
+              <li>Communicate procedures, schedules, expectations, and safety protocols.</li>
+              <li>Delegate tasks to staff and instruct clients on NPS guidelines and procedures.</li>
+              <li>Transport company and client equipment to and from remote destinations.</li>
+              <li>Inventory, maintenance, service, repair scheduling, and overall upkeep of complex company equipment.</li>
+              <li>Schedule and perform maintenance and safety checks on company vehicles.</li>
+              <li>Train and supervise drive staff to follow proper safety procedures and company policies.</li>
             </ul>
           </div>
         </div>
-    </div>
-  </section>
 
-
-    <!-- Software Developer section -->
-
-  <section class="text-black overflow-hidden text-white mx-2 my-6 lg:my-12 xl:mx-16 flex flex-col justify-center bg-gray-900 rounded-xl dark:border shadow-md shadow-slate-400 dark:shadow-none">
-
-    <!-- Software Developer top area -->
-
-    <div class="text-white flex flex-col items-center lg:flex-row justify-center"id="Software_Location">
-      <img
-        class="lg:border w-full object-cover h-25 sm:m-4 sm:h-72 sm:w-72 sm:rounded-full"
-        src="assets/Programmer.jpg"
-        alt="A humanoid robot picture"
-      />
-      <div class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal">
-        <h5
-          class="text-center lg:text-start mb-2 text-2xl font-bold tracking-tight text-blue-700 dark:text-blue-500"
-          >SOFTWARE DEVELOPER
-        </h5>
-        <p class="p-4 text-s md:text-base lg:text-xl mb-3 font-normal">
-          In mid-2022 as I was attempting to tailor my photography website to my specific needs, I discovered a growing interest in computers and coding. This intrigue led me to acquire knowledge in various technologies and tools as programming became a hobby that I enjoy greatly. Having realized the value of programming knowledge I have dedicated myself to continuous learning in the software space. With the emergence of modern AI, I plan to utilize new technologies to increase my productivity and effectiveness in different areas of business and personal life.
-        </p>
-      </div>
-    </div>
-
-    <!-- software developer projects cards  -->
-    <div
-      class="text-black dark:text-white p-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 "
-    >
-
-      <!-- GPT-BUDDY -->
-      <div
-        class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-      >
-        <div>
+        <!-- Card: Canyon River Equipment Outfitters -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
           <img
-            class="w-full h-25 sm:h-72 object-cover object-center"
-            src="assets/GPTBUDDY.png"
-            alt="Sunset in the mountains"
+            class="w-full h-36 sm:h-96 object-cover object-left"
+            src="assets/REO.jpg"
+            alt="River equipment laid out by a canyon river"
           />
-          <div class="p-1 sm:px-3">
-            <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
-              GPT AI BUDDY
-            </h2>
-
-            <p class="text-xs sm:text-base">
-              An AI Discord Bot that uses REST API's from OpenAI. This bot is Capable of using any Chat-GPT model as well as Dall-E 3 to generate images from text prompts. It's "Personality", response format, and "expertise" is fully customizable.
-          </div>
-          <div class="p-1 sm:px-3">
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >HTML</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >CSS</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >JavaScript</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >Tailwind</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >Discord.js</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >OpenAI</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >REST API</span
-            >
+          <div class="sm:px-6 sm:py-2 p-1">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Canyon River Equipment Outfitters
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Field Manager
+            </div>
+            <div class="font-bold text-base mb-1">2014-2020</div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
+              <li>Provide leadership to maintain organization and time efficiency.</li>
+              <li>Share knowledge and skills with clients lacking experience and knowledge.</li>
+              <li>Provide live demonstrations on the use of all company equipment.</li>
+              <li>Teach clients about preservation, leave no trace, and NPS guidelines.</li>
+              <li>Provide training on setup, maintenance, and use of all company equipment.</li>
+              <li>Camp with clients, tend to their needs, and prepare their meals.</li>
+              <li>Build rapport with clients while representing the company.</li>
+            </ul>
           </div>
         </div>
-              <a
-                target="_blank"
-                class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
-                href="https://github.com/Lane-G-Smith/Discord-Bot-Vanilla-JS-GPT-4"
-                >
-                Explore
-                </a>
-      </div>
 
-      <!-- Lots Of Bots -->
-      <div
-        class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-      >
-        <div>
+        <!-- Card: DJ's Snowmobile Adventures -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
           <img
-            class="w-full h-36 sm:h-96 object-cover"
-            src="assets/Discord.jpg"
-            alt="Sunset in the mountains"
+            class="w-full h-36 sm:h-96 object-cover object-bottom"
+            src="assets/DJS.jpg"
+            alt="Snowmobiles lined up in a snowy landscape"
           />
-          <div class="p-1 sm:px-3">
-            <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
-              Lots Of Bots
-            </h2>
-              <p>
-                A website with a compilation of Discord bots that I made for my Discord servers. These bots provide comic relief as well as help with certain tasks, transforming my Discord app into an AI powerhouse.
-              </p>
-          </div>
-          <div class="p-1 sm:px-3">
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >HTML</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >CSS</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >JavaScript</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >Tailwind</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >Discord.js</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >OpenAI</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >REST API</span
-            >
+          <div class="sm:px-6 sm:py-2 p-1">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              DJ's Snowmobile Adventures
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Field Manager
+            </div>
+            <div class="font-bold text-base mb-1">2007-2012</div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
+              <li>Instruct guests on snowmobile operations and safety procedures.</li>
+              <li>Lead guided snowmobile tours through remote terrain and hazardous conditions with a heavy emphasis on safety.</li>
+              <li>Provide local historical and geographical interpretation.</li>
+              <li>Respond to accidents and coordinate with emergency medical services.</li>
+              <li>Manage guides, trip locations, time in the field, schedules, and take reservations.</li>
+              <li>Promote the highest quality guest experience and maintain safe operations.</li>
+              <li>Patrol the field to ensure clients are following safety procedures and company policies.</li>
+            </ul>
           </div>
         </div>
-              <a
-                target="_blank"
-                class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
-                href="https://lane-g-smith.github.io/Lanesmith.Info-Discord-Bots/"
-                >
-                Explore
-                </a>
-      </div>
 
-      <!-- Character AI Clone -->
-      <div
-        class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-      >
-        <div>
+        <!-- Card: Zephyr Whitewater Expeditions -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/Zephyr.jpg"
+            alt="Rafting group navigating rapids"
+          />
+          <div class="sm:px-6 sm:py-2 p-1">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Zephyr Whitewater Expeditions
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Trip Leader & Guide
+            </div>
+            <div class="font-bold text-base mb-1">2011-2015</div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
+              <li>Contribute to a positive, supportive, and collaborative team atmosphere.</li>
+              <li>Assign tasks and duties to staff members.</li>
+              <li>Conduct safety seminars for clients on equipment and emergency protocols.</li>
+              <li>Transport clients in company trucks, buses, and vans.</li>
+              <li>Keep vehicles clean, conduct safety checks, and detect mechanical problems.</li>
+              <li>Promoted sales of future trips increasing company profitability.</li>
+              <li>Engage clients in friendly conversation, fun, and games to build rapport.</li>
+              <li>Delegate meal prep and cleanup following NPS leave-no-trace guidelines.</li>
+              <li>Prepare, inventory, pack, unpack, clean, inspect, and store equipment.</li>
+              <li>Lead multiple staff meetings throughout the day to keep everyone up-to-date.</li>
+              <li>Lead hikes and/or other activities to enrich guests' experiences.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: Whitewater Voyages -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
           <img
             class="w-full h-36 sm:h-96 object-cover object-top"
-            src="assets/CharacterAI.jpg"
-            alt="AI generated robot face with a friendly disposition"
+            src="assets/Voyages.jpg"
+            alt="Raft guides preparing equipment by a river"
           />
-          <div class="p-1 sm:px-3">
-            <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
-              Character.AI Concept React App
-            </h2>
-
-            <p class="text-xs sm:text-base">
-              A React Application inspired by Character.ai. This project was a collaborative effort and serves as a central hub that interfaces with OpenAI's REST APIs to create interactive AI characters and personalities. A new itteration of this project has been made privately for future development and monetization, but the initial framework is still public.
-            </p>
-          </div>
-          <div class="p-1 sm:px-2">
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >HTML</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >CSS</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >JavaScript</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-              >Tailwind</span
-            >
-            <span
-            class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-            >React</span
-          >
-          <span
-          class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-          >Chat-GPT</span
-        >
-        <span
-        class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-        >REST API</span
-      >
-      <span
-      class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-      >TypeScript</span
-    >
-    <span
-    class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-    >MongoDB</span
-  >
-  <span
-  class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-  >Express.js</span
->
-<span
-class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
->Vite</span
->
+          <div class="sm:px-6 sm:py-2 p-1">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Whitewater Voyages
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Trip Leader, Guide & Bus Driver
+            </div>
+            <div class="font-bold text-base mb-1">2011-2015</div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
+              <li>Contribute to a positive, supportive, and collaborative team atmosphere.</li>
+              <li>Assign tasks and duties to staff members.</li>
+              <li>Conduct safety seminars for clients on equipment and emergency protocols.</li>
+              <li>Transport clients in company trucks, buses, and vans.</li>
+              <li>Keep vehicles clean, conduct safety checks, and detect mechanical problems.</li>
+              <li>Promoted sales of future trips increasing company profitability.</li>
+              <li>Engage clients in friendly conversation, fun, and games to build rapport.</li>
+              <li>Delegate meal prep and cleanup following NPS leave-no-trace guidelines.</li>
+              <li>Prepare, inventory, pack, unpack, clean, inspect, and store equipment.</li>
+              <li>Lead multiple staff meetings throughout the day to keep everyone up-to-date.</li>
+              <li>Lead hikes and/or other activities to enrich guests' experiences.</li>
+            </ul>
           </div>
         </div>
-        <a
-        target="_blank"
-        class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
-        href="https://github.com/Lane-G-Smith/AI-Personalities-React-App"
-        >
-        Explore
-        </a>
+
+        <!-- Card: South Lake Boat Landing -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/SouthLake.jpg"
+            alt="Lane standing in water wearing a wetsuit, retrieving an outboard boat motor that sank after a storm"
+          />
+          <div class="sm:px-6 sm:py-2 p-1">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              South Lake Boat Landing
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Operations Supervisor
+            </div>
+            <div class="font-bold text-base sm:mb-1">2006-2010</div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-xs md:text-base">
+              <li>Create project lists, inventory and order products, maintain equipment, and maintain operational areas.</li>
+              <li>Relationship management with vendors, ordering products, record keeping, and contracts.</li>
+              <li>Employee performance evaluation and training.</li>
+              <li>Communicate procedures, schedules, expectations, and safety protocols to clients and staff.</li>
+              <li>Schedule and perform regular maintenance and safety checks on the marine fleet.</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
+      <!-- End Operations Management Experience Cards Grid -->
 
-          <!-- Apps Script -->
+    </section>
+    <!-- ==== End Operations Manager Section ==== -->
 
-          <div
-          class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
+    <!-- ==== Software Developer Section ==== -->
+    <section class="text-black overflow-hidden text-white mx-2 my-6 lg:my-12 xl:mx-16 flex flex-col justify-center bg-gray-900 rounded-xl dark:border shadow-md shadow-slate-400 dark:shadow-none">
+
+      <!-- Software Developer Top Area (Intro) -->
+      <div class="text-white flex flex-col items-center lg:flex-row justify-center" id="Software_Location">
+        <!-- Section Image -->
+        <img
+          class="lg:border w-full object-cover h-25 sm:m-4 sm:h-72 sm:w-72 sm:rounded-full"
+          src="assets/Programmer.jpg"
+          alt="Stylized image representing software development"
+        />
+        <!-- Section Description -->
+        <div class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal">
+          <h5 class="text-center lg:text-start mb-2 text-2xl font-bold tracking-tight text-blue-700 dark:text-blue-500">
+            SOFTWARE DEVELOPER
+          </h5>
+          <p class="p-4 text-s md:text-base lg:text-xl mb-3 font-normal">
+            In mid-2022 as I was attempting to tailor my photography website to my specific needs, I discovered a growing interest in computers and coding. This intrigue led me to acquire knowledge in various technologies and tools as programming became a hobby that I enjoy greatly. Having realized the value of programming knowledge I have dedicated myself to continuous learning in the software space. With the emergence of modern AI, I plan to utilize new technologies to increase my productivity and effectiveness in different areas of business and personal life.
+          </p>
+        </div>
+      </div>
+      <!-- End Software Developer Top Area -->
+
+      <!-- Software Developer Projects Cards Grid -->
+      <div class="text-black dark:text-white p-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
+
+        <!-- Card: GPT-BUDDY -->
+        <div class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-96 object-cover object-center"
+              src="assets/GPTBUDDY.png"
+              alt="Logo or screenshot for GPT AI Buddy Discord Bot"
+            />
+            <div class="p-1 sm:px-3">
+              <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
+                GPT AI BUDDY
+              </h2>
+              <p class="text-xs sm:text-base">
+                An AI Discord Bot that uses REST API's from OpenAI. This bot is Capable of using any Chat-GPT model as well as Dall-E 3 to generate images from text prompts. It's "Personality", response format, and "expertise" is fully customizable.
+              </p>
+            </div>
+            <!-- Tech Tags -->
+            <div class="p-1 sm:px-3">
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">HTML</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">CSS</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">JavaScript</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">Tailwind</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">Discord.js</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">OpenAI</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">REST API</span>
+            </div>
+          </div>
+          <!-- Explore Button -->
+          <a
+            target="_blank"
+            class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+            href="https://github.com/Lane-G-Smith/Discord-Bot-Vanilla-JS-GPT-4"
+          >
+            Explore
+          </a>
+        </div>
+
+        <!-- Card: Lots Of Bots -->
+        <div class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-96 object-cover"
+              src="assets/Discord.jpg"
+              alt="Discord logo or related imagery"
+            />
+            <div class="p-1 sm:px-3">
+              <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
+                Lots Of Bots
+              </h2>
+              <p class="text-xs sm:text-base">
+                A website with a compilation of Discord bots that I made for my Discord servers. These bots provide comic relief as well as help with certain tasks, transforming my Discord app into an AI powerhouse.
+              </p>
+            </div>
+            <!-- Tech Tags -->
+            <div class="p-1 sm:px-3">
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">HTML</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">CSS</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">JavaScript</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">Tailwind</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">Discord.js</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">OpenAI</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">REST API</span>
+            </div>
+          </div>
+          <!-- Explore Button -->
+          <a
+            target="_blank"
+            class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+            href="https://lane-g-smith.github.io/Lanesmith.Info-Discord-Bots/"
+          >
+            Explore
+          </a>
+        </div>
+
+        <!-- Card: Character AI Clone -->
+        <div class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-96 object-cover object-top"
+              src="assets/CharacterAI.jpg"
+              alt="AI generated robot face with a friendly disposition"
+            />
+            <div class="p-1 sm:px-3">
+              <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
+                Character.AI Concept React App
+              </h2>
+              <p class="text-xs sm:text-base">
+                A React Application inspired by Character.ai. This project was a collaborative effort and serves as a central hub that interfaces with OpenAI's REST APIs to create interactive AI characters and personalities. A new iteration of this project has been made privately for future development and monetization, but the initial framework is still public.
+              </p>
+            </div>
+            <!-- Tech Tags -->
+            <div class="p-1 sm:px-2">
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">HTML</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">CSS</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">JavaScript</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">Tailwind</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">React</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">Chat-GPT</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">REST API</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">TypeScript</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">MongoDB</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">Express.js</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">Vite</span>
+            </div>
+          </div>
+          <!-- Explore Button -->
+          <a
+            target="_blank"
+            class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+            href="https://github.com/Lane-G-Smith/AI-Personalities-React-App"
+          >
+            Explore
+          </a>
+        </div>
+
+        <!-- Card: Apps Script -->
+        <div class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
           <div>
             <img
               class="w-full h-36 sm:h-96 object-cover"
@@ -533,58 +487,47 @@ class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold tex
               <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
                 Chat-GPT Enabled Docs
               </h2>
-  
               <p class="text-xs sm:text-base">
                 A simple javaScript program that enables Chat-GPT functionality in Google Sheets using Apps Script.
               </p>
             </div>
+            <!-- Tech Tags -->
             <div class="p-1 sm:px-3">
-              <span
-                class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-                >Apps Script</span
-              >
-              <span
-                class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-                >JavaScript</span
-              >
-              <span
-                class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-                >OpenAI</span
-              >
-              <span
-                class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1"
-                >REST API</span
-              >
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">Apps Script</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">JavaScript</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">OpenAI</span>
+              <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 m-1">REST API</span>
             </div>
           </div>
-                <a
-                  target="_blank"
-                  class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
-                  href="https://github.com/Lane-G-Smith/ChatGPT-Google-Sheets-Apps-Script"
-                  >
-                  Explore
-                  </a>
+          <!-- Explore Button -->
+          <a
+            target="_blank"
+            class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+            href="https://github.com/Lane-G-Smith/ChatGPT-Google-Sheets-Apps-Script"
+          >
+            Explore
+          </a>
         </div>
-    </div>
-</section>
+      </div>
+      <!-- End Software Developer Projects Cards Grid -->
 
-<!-- Entrepreneurial area -->
+    </section>
+    <!-- ==== End Software Developer Section ==== -->
 
+    <!-- ==== Entrepreneurial Section ==== -->
     <section class="overflow-hidden text-black mx-2 my-6 lg:my-12 xl:mx-16 flex flex-col justify-center bg-gray-900 rounded-xl dark:border shadow-md shadow-slate-400 dark:shadow-none">
-          
-      <!-- Entrepreneur top area -->
+
+      <!-- Entrepreneur Top Area (Intro) -->
       <div class="flex flex-col items-center lg:flex-row justify-center" id="Entrepreneur_Location">
+        <!-- Section Image -->
         <img
           class="lg:border w-full object-cover h-25 sm:m-4 sm:h-72 sm:w-72 sm:rounded-full"
           src="assets/Photographer.jpg"
-          alt="A humanoid robot picture"
+          alt="Lane Smith holding a camera, representing entrepreneurship"
         />
-        <div
-          class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal"
-        >
-          <h5
-            class="text-center lg:text-start mb-2 text-2xl font-bold tracking-tight text-blue-700 dark:text-blue-500"
-          >
+        <!-- Section Description -->
+        <div class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal">
+          <h5 class="text-center lg:text-start mb-2 text-2xl font-bold tracking-tight text-blue-700 dark:text-blue-500">
             ENTREPRENEUR
           </h5>
           <p class="text-white p-4 text-s md:text-base lg:text-xl mb-3 font-normal">
@@ -592,384 +535,365 @@ class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold tex
           </p>
         </div>
       </div>
+      <!-- End Entrepreneur Top Area -->
 
-    <!-- entrepreneurial cards -->
+      <!-- Entrepreneurial Ventures Cards Grid -->
+      <div class="dark:text-white p-8 grid gap-8 grid-cols-1 sm:grid-cols-2">
 
-    <div class="dark:text-white p-8 grid gap-8 grid-cols-1 sm:grid-cols-2" >
-
-    <!-- Lane G Photography -->  
-      <div
-        class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
-        <div>
-          <img
-            class="w-full h-36 sm:h-96 object-cover"
-            src="assets/LGPCouple.jpg"
-            alt="Sunset in the mountains"
-          />
-          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-              Lane G Photography
-            </div>
-            <div class="font-bold text-base sm:text-lg sm:mb-1">
-              Owner & Founder
-            </div>
-            <div class="font-bold text-base mb-1 dark:text-white">2020</div>
-            <div class="pb-2 pl-4 sm:pl-1 text-xs md:text-base">
-              In 2020, I began offering my photography services for hire as a way to supplement my income during the temporary shutdown of the National Parks due to COVID-19. At that time, I was employed by a company that relied heavily on visitors to the Grand Canyon National Park. To establish my presence in the photography market, I built a professional website, developed a robust social media strategy, and effectively marketed my services to secure bookings.
-              Since then, I have successfully photographed a diverse range of events, including weddings, family portraits, maternity shoots, engagements, album covers, corporate retreats, graduation ceremonies, and numerous local events. Through strategic automation of many business processes, my photography venture has evolved into a largely passive source of income, requiring only occasional in-person engagements.
-            </div>
-          </div>
-        </div>
-              <a
-                target="_blank"
-                class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
-                href="https://www.lanegphotography.com"
-                >
-                Explore
-                </a>
-      </div>
-
-      <!--Candle Magic Studio -->
-      <div
-        class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-      >
-        <div>
-          <img
-            class="w-full h-36 sm:h-96 object-cover"
-            src="assets/CandleMagic.jpg"
-            alt="Candle Magic Studio logo of cartoon witches face smiling, black and yellow colors"
-          />
-          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-              Candle Magic Studio
-            </div>
-            <div class="font-bold text-base sm:text-lg sm:mb-1">
-              Co-Owner & Co-Founder
-            </div>
-            <div class="font-bold text-base sm:text-lg mb-1 dark:text-white">2024</div>
-            <div class="pb-2 pl-4 sm:pl-1 text-xs md:text-base">
-              One of the ventures I embarked on was the development of a successful candle business. Initially, my wife began her journey as a wax apprentice at a renowned candle company, quickly advancing to the roles of lead artist and trainer, and ultimately serving as the general manager for three distinct candle stores. 
-              When the company decided to close its brick-and-mortar locations in favor of individual vendors, we seized the opportunity to acquire all of the existing equipment with the prior owner's endorsement. This pivotal moment allowed us to launch our own e-commerce candle business from the ground up. In our first year, we achieved impressive sales exceeding $40,000, and we continue to experience significant growth each month.
+        <!-- Card: Lane G Photography -->
+        <div class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-96 object-cover"
+              src="assets/LGPCouple.jpg"
+              alt="Couple posing for a photo by Lane G Photography"
+            />
+            <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+              <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+                Lane G Photography
+              </div>
+              <div class="font-bold text-base sm:text-lg sm:mb-1">
+                Owner & Founder
+              </div>
+              <div class="font-bold text-base mb-1 dark:text-white">2020</div>
+              <div class="pb-2 pl-4 sm:pl-1 text-xs md:text-base">
+                In 2020, I began offering my photography services for hire as a way to supplement my income during the temporary shutdown of the National Parks due to COVID-19. At that time, I was employed by a company that relied heavily on visitors to the Grand Canyon National Park. To establish my presence in the photography market, I built a professional website, developed a robust social media strategy, and effectively marketed my services to secure bookings. Since then, I have successfully photographed a diverse range of events, including weddings, family portraits, maternity shoots, engagements, album covers, corporate retreats, graduation ceremonies, and numerous local events. Through strategic automation of many business processes, my photography venture has evolved into a largely passive source of income, requiring only occasional in-person engagements.
+              </div>
             </div>
           </div>
+          <!-- Explore Button -->
+          <a
+            target="_blank"
+            class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+            href="https://www.lanegphotography.com"
+          >
+            Explore
+          </a>
         </div>
-              <a
-                target="_blank"
-                class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
-                href="https://candlemagicstudio.com"
-                >
-                Explore
-              </a>
+
+        <!-- Card: Candle Magic Studio -->
+        <div class="flex flex-col justify-between bg-white overflow-hidden dark:bg-gray-950 dark:border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-96 object-cover"
+              src="assets/CandleMagic.jpg"
+              alt="Candle Magic Studio logo of cartoon witches face smiling, black and yellow colors"
+            />
+            <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+              <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+                Candle Magic Studio
+              </div>
+              <div class="font-bold text-base sm:text-lg sm:mb-1">
+                Co-Owner & Co-Founder
+              </div>
+              <div class="font-bold text-base sm:text-lg mb-1 dark:text-white">2023</div>
+              <div class="pb-2 pl-4 sm:pl-1 text-xs md:text-base">
+                One of the ventures I embarked on was the development of a successful candle business. Initially, my wife began her journey as a wax apprentice at a renowned candle company, quickly advancing to the roles of lead artist and trainer, and ultimately serving as the general manager for three distinct candle stores. When the company decided to close its brick-and-mortar locations in favor of individual vendors, we seized the opportunity to acquire all of the existing equipment with the prior owner's endorsement. This pivotal moment allowed us to launch our own e-commerce candle business from the ground up. In our first year, we achieved impressive sales exceeding $40,000, and we continue to experience significant growth each month.
+              </div>
+            </div>
+          </div>
+          <!-- Explore Button -->
+          <a
+            target="_blank"
+            class="p-2 m-2 sm:ml-8 sm:mb-8 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+            href="https://candlemagicstudio.com"
+          >
+            Explore
+          </a>
+        </div>
       </div>
-    </div>
-  </section>
+      <!-- End Entrepreneurial Ventures Cards Grid -->
 
-  <!-- Education Area -->
+    </section>
+    <!-- ==== End Entrepreneurial Section ==== -->
 
-  <section class="overflow-hidden text-white mx-2 my-6 lg:my-12 xl:mx-16 flex flex-col justify-center bg-gray-900 rounded-xl dark:border shadow-md shadow-slate-400 dark:shadow-none">
+    <!-- ==== Education Section ==== -->
+    <section class="overflow-hidden text-white mx-2 my-6 lg:my-12 xl:mx-16 flex flex-col justify-center bg-gray-900 rounded-xl dark:border shadow-md shadow-slate-400 dark:shadow-none">
 
-    <!-- Education top area-->
-
-      <div class="flex flex-col items-center lg:flex-row justify-center"
-        id="Project_Manager_Location">
+      <!-- Education Top Area (Intro) -->
+      <div class="flex flex-col items-center lg:flex-row justify-center"> <!-- Removed duplicate ID -->
+        <!-- Section Image -->
         <img
           class="lg:border w-full object-cover h-25 sm:m-4 sm:h-72 sm:w-72 sm:rounded-full"
           src="assets/Education.jpg"
-          alt="A humanoid robot picture"
+          alt="Books and graduation cap representing education"
         />
-        <div
-          class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal"
-        >
-          <h5
-            class="text-center lg:text-start mb-2 text-2xl font-bold tracking-tight text-blue-700 dark:text-blue-500"
-          >
+        <!-- Section Description -->
+        <div class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal">
+          <h5 class="text-center lg:text-start mb-2 text-2xl font-bold tracking-tight text-blue-700 dark:text-blue-500">
             Education
           </h5>
           <p class="p-4 text-s md:text-base lg:text-xl mb-3 font-normal">
             I am committed to lifelong learning and continuously seek opportunities to expand my knowledge and skills. Whether through formal education, online courses, or self-directed study, I believe that growth comes from embracing new challenges and experiences. My passion for learning not only enhances my professional capabilities but also allows me to adapt and thrive in an ever-evolving landscape.
           </p>
-          </div>
-      </div>
-
-    <!-- Education cards -->
-
-    <div class="text-black dark:text-white p-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-5" >
-
-      <!-- Northern Arizona University -->
-      <div
-      class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-      >
-      <img
-        class="w-full h-25 sm:h-72 object-cover object-center"
-        src="assets/NAU.jpg"
-        alt=""
-      />
-      <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-        <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-          Northern Arizona University
-        </div>
-        <div class="font-bold text-base sm:text-lg sm:mb-1">
-          Bachelor of science in psychology<br />
-          Minor in Biological science
-        </div>
-        <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-          <li>Psychopharmacology<br /></li>
-          <li>Cognitive & Behavioral Neuroscience<br /></li>
-          <li>Developmental Psychology<br /></li>
-                    <li>Neuropsychology<br /></li>
-          <li>Industrial Orgonizational Psychology<br /></li>
-        </ul>
-      </div>
-      </div>
-
-
-      <!-- Cypress College -->
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-25 sm:h-72 object-cover object-center"
-          src="assets/CypressCollege.jpg"
-          alt=""
-        />
-        <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            Cypress College
-          </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            <P>Pre-Medical</P>
-          </div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-            <li>Anatomy<br /></li>
-            <li>Physiology<br /></li>
-            <li>Microbiology<br /></li>
-            <li>Chemistry<br /></li>
-            <li>Medical Terminology<br /></li>
-            <li>Statistics<br /></li>
-          </ul>
         </div>
       </div>
+      <!-- End Education Top Area -->
 
-      <!-- Fullerton College -->
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-25 sm:h-72 object-cover object-center"
-          src="assets/Fullerton College.jpg"
-          alt="Sunset in the mountains"
-        />
-        <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            Fullerton College
+      <!-- Education Cards Grid -->
+      <div class="text-black dark:text-white p-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-5">
+
+        <!-- Card: Northern Arizona University -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/NAU.jpg"
+            alt="Northern Arizona University campus or logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Northern Arizona University
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Bachelor of science in psychology<br />
+              Minor in Biological science
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>Psychopharmacology</li>
+              <li>Cognitive & Behavioral Neuroscience</li>
+              <li>Developmental Psychology</li>
+              <li>Neuropsychology</li>
+              <li>Industrial Orgonizational Psychology</li>
+            </ul>
           </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            General Education
-          </div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-            <li>Language<br /></li>
-            <li>Economics<br /></li>
-            <li>Mathematics<br /></li>
-            <li>History<br /></li>
-          </ul>
         </div>
-      </div>
 
-      <!-- The Odin Project -->
-      <div
-      class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-      >
-      <img
-        class="w-full h-25 sm:h-72 object-cover object-center"
-        src="assets/OdinProject.jpg"
-        alt=""
-      />
-      <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-        <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-          The Odin Project
+        <!-- Card: Cypress College -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/CypressCollege.jpg"
+            alt="Cypress College campus or logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Cypress College
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              <p>Pre-Medical</p>
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>Anatomy</li>
+              <li>Physiology</li>
+              <li>Microbiology</li>
+              <li>Chemistry</li>
+              <li>Medical Terminology</li>
+              <li>Statistics</li>
+            </ul>
+          </div>
         </div>
-        <div class="font-bold text-base sm:text-lg sm:mb-1">
-          Full Stack Javascript
+
+        <!-- Card: Fullerton College -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/Fullerton College.jpg"
+            alt="Fullerton College campus or logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Fullerton College
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              General Education
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>Language</li>
+              <li>Economics</li>
+              <li>Mathematics</li>
+              <li>History</li>
+            </ul>
+          </div>
         </div>
-        <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-          <li>HTML<br /></li>
-          <li>CSS<br /></li>
-          <li>JavaScript<br /></li>
-          <li>MongoDB<br /></li>
-          <li>Express<br /></li>
-          <li>React<br /></li>
-          <li>NodeJS<br /></li>
-        </ul>
-      </div>
-      </div>
 
-      <!-- CIEMT -->
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-25 sm:h-72 object-cover object-center"
-          src="assets/CIEMT.jpg"
-          alt=""
-        />
-        <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            California Intitute Of EMT
+        <!-- Card: The Odin Project -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/OdinProject.jpg"
+            alt="The Odin Project logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              The Odin Project
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Full Stack Javascript
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>MongoDB</li>
+              <li>Express</li>
+              <li>React</li>
+              <li>NodeJS</li>
+            </ul>
           </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            EMT Certification
-          </div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-            <li>Emergency Medicine Education<br /></li>
-            <li>Internship In Ambulance<br /></li>
-            <li>Practical Examination<br /></li>
-            <li>NREMT Examination And Licensing<br /></li>
-          </ul>
         </div>
-      </div>
 
-      <!-- NOLS -->
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-        class="w-full h-25 sm:h-72 object-cover object-bottom"
-        src="assets/NOLS.png"
-        alt=""
-        />
-        <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            NOLS
+        <!-- Card: CIEMT -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/CIEMT.jpg"
+            alt="California Institute Of EMT logo or related image"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              California Institute Of EMT
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              EMT Certification
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>Emergency Medicine Education</li>
+              <li>Internship In Ambulance</li>
+              <li>Practical Examination</li>
+              <li>NREMT Examination And Licensing</li>
+            </ul>
           </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Wilderness EMT & First Responder
-          </div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-            <li>Triage<br /></li>
-            <li>Emergency Stablization And Extraction<br /></li>
-            <li>Stress And Panic Management<br /></li>
-            <li>Realistic Scenario Field Training<br /></li>
-          </ul>
         </div>
-      </div>
 
-      <!-- Phoenix Nursing School -->
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-25 sm:h-72 object-cover object-center"
-          src="assets/AMTI.jpg"
-          alt=""
-        />
-        <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            Arizona Medical Training Institute
+        <!-- Card: NOLS -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-bottom"
+            src="assets/NOLS.png"
+            alt="NOLS (National Outdoor Leadership School) logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              NOLS
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Wilderness EMT & First Responder
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>Triage</li>
+              <li>Emergency Stablization And Extraction</li>
+              <li>Stress And Panic Management</li>
+              <li>Realistic Scenario Field Training</li>
+            </ul>
           </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Certified Nursing Assistant Training
-          </div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-            <li>Hands On Training<br /></li>
-            <li>Rehabilitation Center Internship<br /></li>
-            <li>Long-Term Care Internship<br /></li>
-            <li>State Certification And Licensing<br /></li>
-          </ul>
         </div>
-      </div>
 
-      <!-- American Truck Driving School -->
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="aspect-square h-25 sm:h-72 object-cover object-center"
-          src="assets/Truck.jpg"
-          alt=""
-        />
-        <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            American Truck Driving School
+        <!-- Card: Arizona Medical Training Institute -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/AMTI.jpg"
+            alt="Arizona Medical Training Institute logo or related image"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Arizona Medical Training Institute
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Certified Nursing Assistant Training
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>Hands On Training</li>
+              <li>Rehabilitation Center Internship</li>
+              <li>Long-Term Care Internship</li>
+              <li>State Certification And Licensing</li>
+            </ul>
           </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Commercial Drivers License Training
-          </div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-            <li>Class A CDL<br /></li>
-            <li>Unrestricted Transmission<br /></li>
-            <li>Doubles & Tripples Endorsements<br /></li>
-          </ul>
         </div>
-      </div>
 
-      <!-- MMI -->
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-25 sm:h-72 object-cover object-center"
-          src="assets/DJS.jpg"
-          alt="Sunset in the mountains"
-        />
-        <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            Motorcycle Mechanics Institute
+        <!-- Card: American Truck Driving School -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/Truck.jpg"
+            alt="Semi-truck representing truck driving school"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              American Truck Driving School
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Commercial Drivers License Training
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>Class A CDL</li>
+              <li>Unrestricted Transmission</li>
+              <li>Doubles & Tripples Endorsements</li>
+            </ul>
           </div>
-          <div class="font-bold text-base sm:text-lg sm:mb-1">
-            Small Engine Technician Training
-          </div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-            <li>Certified Technician (Honda, Yamaha, Kawasaki)<br /></li>
-            <li>Motorcycle, ATV, PWC, Snowmobile, Generator<br /></li>
-            <li>Electrical Systems<br /></li>
-            <li>Transmissions<br /></li>
-            <li>Two & Four Stroke Engines<br /></li>
-            <li>Hydraulic Systems<br /></li>
-          </ul>
         </div>
-      </div>
 
-      <!-- High School -->
-      <div
-        class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
-        >
-        <img
-          class="w-full h-25 sm:h-72 object-cover object-center"
-          src="assets/Sonora High School.jpg" 
-          alt="Sunset in the mountains"
-        />
-        <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
-          <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
-            Sonora High School
+        <!-- Card: Motorcycle Mechanics Institute (MMI) -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/DJS.jpg"
+            alt="Motorcycle or small engine image representing MMI"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Motorcycle Mechanics Institute
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Small Engine Technician Training
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>Certified Technician (Honda, Yamaha, Kawasaki)</li>
+              <li>Motorcycle, ATV, PWC, Snowmobile, Generator</li>
+              <li>Electrical Systems</li>
+              <li>Transmissions</li>
+              <li>Two & Four Stroke Engines</li>
+              <li>Hydraulic Systems</li>
+            </ul>
           </div>
-          <div class="font-bold text-s sm:text-lg sm:mb-1">
-            High School Diploma
-          </div>
-          <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
-            <li>Football Team<br /></li>
-            <li>Swim Team<br /></li>
-            <li>Autoshop & Woodshop<br /></li>
-            <li>Graduating Class Of 2003<br /></li>
-          </ul>
         </div>
+
+        <!-- Card: Sonora High School -->
+        <div class="bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-96 object-cover object-center"
+            src="assets/Sonora High School.jpg"
+            alt="Sonora High School building or logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Sonora High School
+            </div>
+            <div class="font-bold text-s sm:text-lg sm:mb-1">
+              High School Diploma
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-base">
+              <li>Football Team</li>
+              <li>Swim Team</li>
+              <li>Autoshop & Woodshop</li>
+              <li>Graduating Class Of 2003</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
-      
-    </div>
-  </section>
+      <!-- End Education Cards Grid -->
 
-  </body>
+    </section>
+    <!-- ==== End Education Section ==== -->
 
-    <!-- footer -->
-
+    <!-- ==== Footer Section ==== -->
     <footer class="mt-12 mb-8 flex flex-col sm:flex-row justify-around">
-      <h2
-        class="text-gray-900 dark:text-white font-bold pt-4 text-center align-text-bottom sm:self-end"
-      >
+      <h2 class="text-gray-900 dark:text-white font-bold pt-4 text-center align-text-bottom sm:self-end">
         Web Design By Lane Smith 2023
       </h2>
+      <!-- Add other footer elements if needed, like contact info or copyright year -->
     </footer>
-    <script src="./scripts/main.js "></script>
+    <!-- ==== End Footer Section ==== -->
+
+    <!-- ==== Scripts ==== -->
+    <!-- Main custom script (if any interactive elements beyond dark mode) -->
+    <script src="./scripts/main.js"></script>
+    <!-- Dark mode toggle script -->
     <script src="./scripts/darkmode.js"></script>
+    <!-- Carousel script (if you have a carousel somewhere not shown) -->
     <script src="./scripts/carousel.js"></script>
+    <!-- ==== End Scripts ==== -->
+
   </body>
 </html>
